@@ -1,3 +1,6 @@
+import os
+from sphinx.transforms.post_transforms import SphinxPostTransform
+
 class translation_link(nodes.Element):
     """Node for "ht_translation" role."""
 
