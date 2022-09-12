@@ -14,6 +14,13 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../../'))
+from common_conf import *  
+
+import recommonmark
+from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
@@ -25,16 +32,6 @@ master_doc = 'index'
 # The full version, including alpha/beta/rc tags
 release = 'V0.0.1'
 
-try:
-    from common_conf import *  # noqa: F403,F401
-except ImportError:
-    import os
-    import sys
-    sys.path.insert(0, os.path.abspath('../../'))
-    from common_conf import *  
-
-import recommonmark
-from recommonmark.transform import AutoStructify
 
 source_suffix = ['.rst', '.md']
 
