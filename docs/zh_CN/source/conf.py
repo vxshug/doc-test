@@ -25,7 +25,13 @@ master_doc = 'index'
 # The full version, including alpha/beta/rc tags
 release = 'V0.0.1'
 
-import ../../common_conf
+try:
+    from conf_common import *  # noqa: F403,F401
+except ImportError:
+    import os
+    import sys
+    sys.path.insert(0, os.path.abspath('../../'))
+    from conf_common import *  
 
 import recommonmark
 from recommonmark.transform import AutoStructify
