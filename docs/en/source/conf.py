@@ -26,12 +26,12 @@ master_doc = 'index'
 release = 'V0.0.1'
 
 try:
-    from conf_common import *  # noqa: F403,F401
+    from common_conf import *  # noqa: F403,F401
 except ImportError:
     import os
     import sys
     sys.path.insert(0, os.path.abspath('../../'))
-    from conf_common import *  
+    from common_conf import *  
 
 import recommonmark
 from recommonmark.transform import AutoStructify
