@@ -11,12 +11,4 @@ Welcome to test's documentation!
    :hidden:
    :caption: Contents:
 
-
-test
-====
-
-
-Indices and tables
-==================
-
 * :ref:`genindex`
