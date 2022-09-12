@@ -1,4 +1,5 @@
 import os
+from docutils import nodes
 from sphinx.transforms.post_transforms import SphinxPostTransform
 
 class translation_link(nodes.Element):
