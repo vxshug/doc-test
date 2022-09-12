@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'test'
-copyright = '2022, vxshug'
-author = 'vxshug'
+copyright = '2022, vshug'
+author = 'vshug'
 release = 'v1'
 
 # -- General configuration ---------------------------------------------------
@@ -19,7 +19,7 @@ extensions = []
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-language = 'en'
+language = 'zh_CN'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
