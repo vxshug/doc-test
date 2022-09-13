@@ -14,7 +14,7 @@ var P = [
         let h = window.location.href.split('/')
         console.log(h)
         let l = h.indexOf(document.documentElement.lang) + 2
-        h.split(l, h.length)
+        h.splice(l, h.length)
         console.log(h.join('/') + '/' + e + '/index.html')
         return h.join('/') + '/' + e + '/index.html'
     }(n)
