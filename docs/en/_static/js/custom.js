@@ -11,18 +11,17 @@ function ht() {
     }(n)
 }
 
-I = [
-    { text: "ESP32", value: "esp32"},
-    { text: "ESP32-S2", value: "esp32s2"},
-    { text: "ESP32-S3", value: "esp32s3"},
-    { text: "ESP32-C2", value: "esp32c2"},
-    { text: "ESP32-C3", value: "esp32c3"}
+var I = [
+    { text: "Lora", value: "lora"},
+    { text: "Gateway", value: "gateway"},
+    { text: "Test", value: "test"}
  ]
+$(function () {
 var e = document.getElementById("target-select");
-e.hidden = !1,
+e.hidden = !1;
 e.onchange = ht;
 for (let r = 0; r < I.length; r++) {
     let n = I[r];
     var t = new Option(n.text,n.value);
     e.add(t)
-}
+}})
