@@ -29,11 +29,8 @@ class TranslationLinkNodeTransform(SphinxPostTransform):
                 doc_path = env.doc2path(docname, False)
                 return_path = '../' * doc_path.count('/')  # path back to the root from 'docname'
                 # then take off 2/3 more paths for language/release/targetname and build the new URL
-                if env.config.idf_target:
-                    url = '{}.html'.format(os.path.join(return_path, '../../..', language, env.config.release,
-                                                        env.config.idf_target, docname))
-                else:
-                    url = '{}.html'.format(os.path.join(return_path, '../..', language, env.config.release,
+                url = '{}.html'.format(os.path.join(return_path, '../../..', language, env.config.release,
+                                                        docname))
                                                         docname))
 
                 node.replace_self(nodes.reference(rawtext, link_text, refuri=url, **options))
