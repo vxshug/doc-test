@@ -31,7 +31,6 @@ class TranslationLinkNodeTransform(SphinxPostTransform):
                 # then take off 2/3 more paths for language/release/targetname and build the new URL
                 url = '{}.html'.format(os.path.join(return_path, '../../..', language, env.config.release,
                                                         docname))
-                                                        docname))
 
                 node.replace_self(nodes.reference(rawtext, link_text, refuri=url, **options))
             else:
