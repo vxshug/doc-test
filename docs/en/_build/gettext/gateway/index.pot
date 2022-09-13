@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../gateway/index.rst:7
+msgid "SX1301 Module"
+msgstr ""
+
+#: ../../gateway/index.rst:7
+msgid "HT-M00 Dual Channel LoRa Gateway"
+msgstr ""
+
+#: ../../gateway/index.rst:7
+msgid "HT-M01 Evaluation LoRa Gateway"
+msgstr ""
+
+#: ../../gateway/index.rst:7
+msgid "HT-M01S Indoor LoRa Gateway"
+msgstr ""
+
+#: ../../gateway/index.rst:7
+msgid "HT-M01S (Rev. 2.0)"
+msgstr ""
+
+#: ../../gateway/index.rst:7
+msgid "HT-M02 Edge LoRa Gateway(4G/LTE)"
+msgstr ""
+
+#: ../../gateway/index.rst:7
+msgid "HT-M02 Edge LoRa Gateway(POE)"
+msgstr ""
+
+#: ../../gateway/index.rst:7
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../gateway/index.rst:2
+msgid "Contents"
+msgstr ""
+
+#: ../../gateway/index.rst:3
+msgid ":ht_translation:`zh_CN:[中文]`"
+msgstr ""
+
+#: ../../gateway/index.rst:5
+msgid "Heltec LoRa Gateways"
+msgstr ""

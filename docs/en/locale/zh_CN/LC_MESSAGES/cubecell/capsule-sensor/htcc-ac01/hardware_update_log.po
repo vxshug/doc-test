@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation
+# Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/hardware_update_log.md:1
+msgid "HTTC - AC01 Hardware Update Logs"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/hardware_update_log.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/hardware_update_log.md:3
+msgid "V1"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/hardware_update_log.md:5
+msgid "First release"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/hardware_update_log.md:6
+msgid "2017-6-1 public sale"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/hardware_update_log.md:7
+msgid "Pinout diagram of V1"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/hardware_update_log.md:8
+msgid "Schematic diagram of V1"
+msgstr ""
+

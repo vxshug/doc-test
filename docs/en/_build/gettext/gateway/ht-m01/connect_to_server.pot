@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../gateway/ht-m01/connect_to_server.md:1
+msgid "Connect HT-M01 to a LoRa Server"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:3
+msgid "Summary"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:5
+msgid "This article aims to describe how to connect HT-M01 Gateway to a LoRa server, such as TTN, ChirpStack, which facilitates secondary development and rapid deployment of LoRa devices.ff"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:7
+msgid "Before all operation, make sure the HT-M01 is runing well with a Raspberry Pi (Linux) or Windows computer. If not, please refer to this HT-M01 Quick Start document."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:11
+#: ../../gateway/ht-m01/connect_to_server.md:32
+msgid "Connect to TTN"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:13
+msgid "Register a LoRa gateway in TTN"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:15
+msgid "Create and active an account in TTN. Select Gateway in the console page."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:19
+#: ../../gateway/ht-m01/connect_to_server.md:118
+msgid "Fill in the HT-M01 information as shown below and complete the addition."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:23
+msgid "Gateway EUI -- The unique ID of HT-M01 gateway;"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:24
+msgid "I'm using the legacy packet forwarder -- Must select this;"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:25
+msgid "Frequency Plan -- Must matach the LoRa band configuration (global_conf.json) in HT-M01."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:26
+msgid "Router -- Must use the default router allocated by TTN system."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:34
+#: ../../gateway/ht-m01/connect_to_server.md:126
+msgid "In the HT-M01 gateway, need to configure the gateway ID, server address and port."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:36
+msgid "The TTN's router addresses for different region:"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:38
+msgid "https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-udp.html#router-addresses"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:42
+#: ../../gateway/ht-m01/connect_to_server.md:128
+msgid "HT-M01 in Linux (Raspberry Pi)"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:44
+#: ../../gateway/ht-m01/connect_to_server.md:130
+msgid "Fix parameters in global_conf.json:"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:50
+#: ../../gateway/ht-m01/connect_to_server.md:136
+msgid "Configure gateway ID, server address, port. At the end of the global_conf.json, make these changes:"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:60
+#: ../../gateway/ht-m01/connect_to_server.md:146
+msgid "ctrl + O to save and ctrl + X to exit, and restart the service in Raspberry Pi:"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:66
+#: ../../gateway/ht-m01/connect_to_server.md:152
+msgid "HT-M01 in Windows"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:68
+msgid "Select Use a cloud network, and fill in correct server address, keep Port default 1700."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:72
+#: ../../gateway/ht-m01/connect_to_server.md:158
+msgid "Click OK and Start Packet Forwarder."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:76
+#: ../../gateway/ht-m01/connect_to_server.md:162
+msgid "View gateway status, it is runing:"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:82
+#: ../../gateway/ht-m01/connect_to_server.md:124
+msgid "Connect to ChirpStack server"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:84
+msgid "ChirpStack is the most popular LoRa server open source project, widely used in many fields, and also the best choise for a private LoRa server."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:86
+msgid "ChirpStack Installation guide: https://www.chirpstack.io/overview/"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:87
+msgid "ChirpStack support forum: https://forum.chirpstack.io/"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:89
+msgid "ChirpStack Gateway Bridge"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:91
+msgid "One thing need attention! the ChirpStack need a special service named Gateway Bridge, which converts LoRa® Packet Forwarder protocols into a ChirpStack Network Server common data-format(JSON and Protobuf)."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:93
+msgid "The Gateway Bridge service can running on the Raspberry Pi or the ChirpStack server. We recommend install it on the Raspberry Pi."
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:95
+msgid "Install LoRa-gateway-bridge:"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:108
+msgid "Install ChirpStack Gateway Bridge can refer to https://www.chirpstack.io/gateway-bridge/install/debian"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:110
+msgid "Starting the ChirpStack Gateway Bridge:"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:116
+msgid "Register LoRa Gateway in ChirpStack"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:122
+msgid "Gateway ID -- The unique ID of HT-M01 gateway。"
+msgstr ""
+
+#: ../../gateway/ht-m01/connect_to_server.md:154
+msgid "Fill in the correct ID, server address, keep Port default 1700."
+msgstr ""

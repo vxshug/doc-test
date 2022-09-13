@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../stm32/quick_start.md:1
+msgid "Heltec STM32+LoRa Series Quick Start"
+msgstr ""
+
+#: ../../stm32/quick_start.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../stm32/quick_start.md:4
+msgid "We suggest you confirm whether the  STM32CubeIDE and STM32CubeProgrammer has installed first. If not install, please install STM32CubeIDE and STM32CubeProgrammer ."
+msgstr ""
+
+#: ../../stm32/quick_start.md:6
+msgid "Install STM32CubeIDE"
+msgstr ""
+
+#: ../../stm32/quick_start.md:8
+msgid "Please click this link to download the STM32CubeIDE."
+msgstr ""
+
+#: ../../stm32/quick_start.md:10
+#: ../../stm32/quick_start.md:22
+msgid "Download Link"
+msgstr ""
+
+#: ../../stm32/quick_start.md:12
+msgid "Install STM32CubeIDE correctly."
+msgstr ""
+
+#: ../../stm32/quick_start.md:18
+msgid "Install STM32CubeProgrammer"
+msgstr ""
+
+#: ../../stm32/quick_start.md:20
+msgid "Please click this link to download the STM32CubeProgrammer."
+msgstr ""
+
+#: ../../stm32/quick_start.md:24
+msgid "Install STM32CubeProgrammer correctly."
+msgstr ""

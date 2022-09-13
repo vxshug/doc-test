@@ -5,7 +5,6 @@ Contents
 This document is used to solve some common problems.
 
 .. toctree::
-    :maxdepth: 2
     
    How to Install Git and Arduino <how_to_install_git_and_arduino>
    Establish Serial Connection <establish_serial_connection>

@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation
+# Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../stm32/lora_node_151/download_firmware.md:1
+msgid "Download Firmware"
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:3
+msgid "Via DFU Mode"
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:5
+msgid ""
+"STM32L151CCU6 had already included DFU Bootloader, it means just need a "
+"Micro USB cable, users can download .elf/.bin files into the board."
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:7
+msgid "How to access DFU mode."
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:9
+msgid ""
+"If the board is not connected to the computer —— press the \"USER\" "
+"button of the Lora node before inserting it into any USB port of the "
+"computer (press the “USER\"  key all the time before inserting, and "
+"release it after connecting to the USB port)"
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:10
+msgid ""
+"If the board had connected to the computer —— Keep the “USER” button "
+"pressed → Press the \"RST\" button → Release the \"RST\" button → Release"
+" the \"USER\" button."
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:12
+#: ../../stm32/lora_node_151/download_firmware.md:38
+msgid "Download firmware."
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:14
+msgid ""
+"If enter DFU mode successfully (with the driver is installed correctly), "
+"you can see the device named \"STM32 BOOTLOADER\" in the device manager. "
+"In the STM32CubeProg software, select USB and click “Connect” to read the"
+" chip information."
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:18
+msgid "Open a .elf/.bin file and click the \"Download\" icon."
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:22
+msgid ""
+"The advantage of using the DFU mode is that you can easily find a Micro "
+"USB cable. But the disadvantage is that there is no way to simulate "
+"online."
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:26
+msgid "Via ST-LINK"
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:28
+msgid "How to connect to ST-LINK."
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:30
+msgid ""
+"Connect the ST-LINK to the LoRa Node correctly, please refer to this "
+"picture."
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:40
+msgid "After connecting ST-LINK correctly, click on this icon."
+msgstr ""
+
+#: ../../stm32/lora_node_151/download_firmware.md:44
+msgid ""
+"The advantage of using the ST-LINK method is that it can be single-"
+"stepped debugging with the STM32CubeIDE , but the disadvantage is that "
+"the ST-LINK debugger tool is required."
+msgstr ""
+

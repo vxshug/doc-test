@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.rst:76
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../index.rst:76
+msgid "LORA GATEWAY"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "How to Install Git and Arduino"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "Establish Serial Connection"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "LoRaWAN Example Sub-Band Usage"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "LoRaWAN Frequency Plans"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "LoRaWAN Frequency Plans and Regulations by Country"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "Subscribe MQTT  Messages"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "Publish MQTT Message"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "Decode LoRaWAN payload"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "How To Config Rasberry Pi"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "Get Limited Technical Resources"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "Connect to Single_channel Gateway"
+msgstr ""
+
+#: ../../index.rst:90
+msgid "Heltec LoRaWAN Test Server Login Issue"
+msgstr ""
+
+#: ../../index.rst:65
+#: ../../index.rst:73
+#: ../../index.rst:90
+msgid "General Docs"
+msgstr ""
+
+#: ../../index.rst:2
+msgid "Heltec Automation Docs Page"
+msgstr ""
+
+#: ../../index.rst:4
+msgid ":ht_translation:`zh_CN:[中文]`"
+msgstr ""
+
+#: ../../index.rst:6
+msgid "This is the documentation for `Heltec Automation <https://heltec.org>`_ products."
+msgstr ""
+
+#: ../../index.rst:9
+msgid "Nodes"
+msgstr ""
+
+#: ../../index.rst:12
+msgid "|CubeCell|_"
+msgstr ""
+
+#: ../../index.rst:21
+msgid "CubeCell"
+msgstr ""
+
+#: ../../index.rst:12
+msgid "|ESP32+LoRa|_"
+msgstr ""
+
+#: ../../index.rst:24
+msgid "ESP32+LoRa"
+msgstr ""
+
+#: ../../index.rst:12
+msgid "|STM32+LoRa|_"
+msgstr ""
+
+#: ../../index.rst:27
+msgid "STM32+LoRa"
+msgstr ""
+
+#: ../../index.rst:14
+msgid "`CubeCell`_"
+msgstr ""
+
+#: ../../index.rst:14
+msgid "`ESP32+LoRa`_"
+msgstr ""
+
+#: ../../index.rst:14
+msgid "`STM32+LoRa`_"
+msgstr ""
+
+#: ../../index.rst:16
+msgid "|ESP32+Arduino|_"
+msgstr ""
+
+#: ../../index.rst:30
+msgid "ESP32+Arduino"
+msgstr ""
+
+#: ../../index.rst:16
+msgid "|ESP8266+Arduino|_"
+msgstr ""
+
+#: ../../index.rst:33
+msgid "ESP8266+Arduino"
+msgstr ""
+
+#: ../../index.rst:18
+msgid "`ESP32+Arduino`_"
+msgstr ""
+
+#: ../../index.rst:18
+msgid "`ESP8266+Arduino`_"
+msgstr ""
+
+#: ../../index.rst:37
+msgid "Gateways"
+msgstr ""
+
+#: ../../index.rst:40
+msgid "|HT-M00|_"
+msgstr ""
+
+#: ../../index.rst:49
+msgid "HT-M00"
+msgstr ""
+
+#: ../../index.rst:40
+msgid "|HT-M01|_"
+msgstr ""
+
+#: ../../index.rst:52
+msgid "HT-M01"
+msgstr ""
+
+#: ../../index.rst:40
+msgid "|HT-M01S|_"
+msgstr ""
+
+#: ../../index.rst:55
+msgid "HT-M01S"
+msgstr ""
+
+#: ../../index.rst:42
+msgid "`HT-M00`_"
+msgstr ""
+
+#: ../../index.rst:42
+msgid "`HT-M01`_"
+msgstr ""
+
+#: ../../index.rst:42
+msgid "`HT-M01S`_"
+msgstr ""
+
+#: ../../index.rst:44
+msgid "|HT-M02_4G/LTE|_"
+msgstr ""
+
+#: ../../index.rst:58
+msgid "HT-M02_4G/LTE"
+msgstr ""
+
+#: ../../index.rst:44
+msgid "|HT-M02_POE|_"
+msgstr ""
+
+#: ../../index.rst:61
+msgid "HT-M02_POE"
+msgstr ""
+
+#: ../../index.rst:46
+msgid "`HT-M02_4G/LTE`_"
+msgstr ""
+
+#: ../../index.rst:46
+msgid "`HT-M02_POE`_"
+msgstr ""
+
+#: ../../index.rst:68
+msgid "|General Docs|_"
+msgstr ""
+
+#: ../../index.rst:70
+msgid "`General Docs`_"
+msgstr ""

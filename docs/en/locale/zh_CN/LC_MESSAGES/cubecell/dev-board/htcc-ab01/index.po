@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation
+# Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../cubecell/dev-board/htcc-ab01/index.rst:7
+msgid "Assemble solar panel"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab01/index.rst:7
+msgid "Hardware Update Logs"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab01/index.rst:2
+msgid "HTCC-AB01 Dev-Board"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab01/index.rst:3
+msgid ""
+"`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell"
+"/dev-board/htcc-ab01/index.html>`_"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab01/index.rst:5
+msgid "CubeCell Dev-Board HTCC-AB01 relevant documents."
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab01/index.rst:14
+msgid "Relevant Offical Resources"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab01/index.rst:16
+msgid ""
+"`AutoCAD drawing "
+"<http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg>`_;"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab01/index.rst:17
+msgid ""
+"`Schematic diagram <http://resource.heltec.cn/download/CubeCell/HTCC-AB01"
+"/HTCC-AB01_SchematicDiagram.pdf>`_."
+msgstr ""
+

@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation
+# Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../general/how_to_config_raspberry_pi.md:1
+msgid ""
+"How to Upload the TF Card Image of Raspberry Pi, Configure Wi-Fi Access, "
+"SSH Connection"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:4
+msgid "Users can also refer to Raspberry Pi official quick start manual."
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:6
+msgid "Prepare Related Tools"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:7
+msgid ""
+"SD Formatter (It's not necessary，If you need to format the TF card with "
+"an existing Raspberry Pi image, You need this tool.)"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:8
+msgid "Win32DiskImager (Image upload tool)"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:9
+msgid ""
+"Raspberry Pi image file (It is recommended to use the \"Raspbian Buster "
+"Lite\" version, it has no graphical interface, can save resources "
+"better.)"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:10
+msgid "Putty (System connection tool of Raspberry Pi)"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:11
+msgid "Micro TF card with more than 4G memory, card reader."
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:15
+msgid "Upload Raspberry Pi Image"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:17
+msgid "Using Win32DiskImager to upload Raspberry Pi image."
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:21
+msgid ""
+"The speed of image upload depends on the performance of TF card. After "
+"uploading, You can see a boot letter of about 42.5MB in \"my computer\", "
+"open the config.txt file and add the following line at the end(Open "
+"serial port to print log) :"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:23
+msgid "enable_uart=1"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:27
+msgid "Start Raspberry Pi"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:29
+msgid ""
+"Configure putty as shown in the following picture. The port number (COM1)"
+" should correspond to the serial port number in the device manager. The "
+"default baud rate is 115200:"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:31
+msgid "]()"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:33
+msgid ""
+"Before starting Raspberry Pi, lead out the serial port of Raspberry Pi, "
+"connect to the computer through USB serial port module(If you have "
+"already purchased Raspberry Pi - - HT-M01 special adapter board, you do "
+"not need additional USB serial port module)"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:37
+msgid ""
+"If everything is normal, you can see the log information of Raspberry Pi "
+"startup in putty serial port."
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:39
+msgid "Default user name and password:"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:41
+msgid "user name：pi"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:43
+msgid ""
+"password：raspberry （In Linux system, the process of entering password "
+"through command line can not see any change）"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:49
+msgid "Connect to WIFI"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:51
+msgid "Enter the following command in putty:"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:53
+msgid "sudo nano /etc/wpa_supplicant/wpa_supplicant.conf"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:55
+msgid "Add WiFi configuration information at the end of it:"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:64
+msgid ""
+"ctrl + O -- Preservation，ctrl + X  -- Sign out. Restart Raspberry Pi. If "
+"everything is normal, Raspberry Pi will automatic connect to the "
+"corresponding WiFi after restart, and will print the IP address in the "
+"startup log."
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:70
+msgid "Configure SSH to Realize LAN Login"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:72
+msgid "sudo raspi-config Open the Raspberry Pi configuration menu；"
+msgstr ""
+
+#: ../../general/how_to_config_raspberry_pi.md:74
+msgid ""
+"Interfacing Options --> SSH --> YES Activate the SSH login option. At "
+"this point, we can log in to Raspberry Pi through the network in the LAN "
+"environment :"
+msgstr ""
+

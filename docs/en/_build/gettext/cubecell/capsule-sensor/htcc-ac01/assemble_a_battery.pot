@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.md:1
+msgid "Assemble a battery to Capsule sensor"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.md:4
+msgid "The capsule sensor is a global product, but because of international transportation, storage and other problems, default is no integrated battery inside the Capsule sensor."
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.md:8
+msgid "After disassembling the sensor shell, you can see 2 pads on the round PCB at the bottom, and solder the battery positive and negative electrodes to this pad:"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.md:18
+msgid "Battery specifications"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.md:20
+msgid "In the capsule sensor, it's already integrates a charge management circuit, but does not have an over-discharge protection circuit, so the lithium battery must have a protection circute. Battery must include following features:"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.md:22
+msgid "Voltage: 3.7V"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.md:23
+msgid "Charging voltage: 4.2V"
+msgstr ""
+
+#: ../../cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.md:24
+msgid "Discharge cut-off voltage: ≤3.3V"
+msgstr ""

@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../cubecell/dev-board/htcc-ab02a/hardware_update_log.md:1
+msgid "CubeCell-1/2AA Dev-Board Hardware Update Logs"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab02a/hardware_update_log.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab02a/hardware_update_log.md:4
+msgid "V1"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab02a/hardware_update_log.md:8
+msgid "First release"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab02a/hardware_update_log.md:9
+msgid "2020-04-30 public sale"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab02a/hardware_update_log.md:10
+msgid "Pinout diagram of V1"
+msgstr ""
+
+#: ../../cubecell/dev-board/htcc-ab02a/hardware_update_log.md:11
+msgid "Schematic diagram of V1"
+msgstr ""

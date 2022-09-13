@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../general/subscribe_mqtt_messages.md:1
+msgid "How to Subscribe MQTT Messages from LoRa Server"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:4
+msgid "Overview"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:6
+msgid "In the LoRaWAN application framework, MQTT is wildly used. For example, your LoRa node devices send sensor data to a gateway and the gateway forward these data to a cloud server, how can we get these sensor data from the cloud server?"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:8
+msgid "The purpose of this article is to provide some examples of how to get MQTT messages from a cloud servers. Hope these examples can provide some reference or make sense to your application."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:14
+#: ../../general/subscribe_mqtt_messages.md:18
+msgid "Via Python"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:15
+#: ../../general/subscribe_mqtt_messages.md:44
+msgid "Via third party application (MQTT.fx)"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:20
+msgid "Here is a simple python3 example that can be used to subscribe to MQTT messages from the server."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:22
+msgid "mqtt-receiver.py"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:24
+msgid "In the simple python example, the content in the three red boxes needs to be modified according to your actual situation:"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:28
+msgid "username_pw_set -- The MQTT topic subscribe user name and pass word."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:29
+msgid "For HT-M02 PoE Edge LoRa Gateway, the default user name is loraroot, pass word is  62374838"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:30
+msgid "For Heltec LoRa Cloud Server, the login information is the user name and password of the MQTT subscription."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:31
+msgid "subscribe  -- MQTT topic name, in the example code, the 2 is application ID allocation by server."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:32
+msgid "HOST and PORT -- MQTT server address and communication port."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:34
+msgid "Run it in a shell with Python3, the content with red line is the data send by node. It's encrypted in BASE64 format"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:36
+msgid "python3 mqtt-receiver.py"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:40
+msgid "If the example does not run correctly, may be missing related components, install it through the following command."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:42
+msgid "sudo pip3 install paho-mqtt python-etcd"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:46
+msgid "There are many useful MQTT subscription and push software on the Internet. This article takes MQTT.fx as an example."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:50
+msgid "Basic communication can be carried out with the above settings. And then click Connect."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:52
+msgid "Click Subscribe -> Scan in turn, and wait for the connected node to transmit data."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:58
+msgid "After the node uploads the data, the information will be scanned in the Scan column."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:62
+msgid "Select one as the subscription information. When there is matching subscription information uploaded, it will be displayed in the data column. The sample subscription is application/4/device/22........09/rx."
+msgstr ""

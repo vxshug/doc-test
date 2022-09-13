@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation
+# Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../general/view_limited_technical_data.md:1
+msgid "Get Limited Technical Resources"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:4
+msgid "We released all relevant resources in GitHub or Resource Page."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:6
+msgid ""
+"Some technical data ara special for Heltec produced products, it's not "
+"shown public, these relevant resources will become downloadable with the "
+"products' Chip ID. At the same time, the Chip ID can also be used to "
+"identify authenticity"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:8
+msgid "Get Limited Resources via Chip ID"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:10
+msgid ""
+"Limited resources will become downloadable with products' Chip ID, that's"
+" an unique ID."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:12
+msgid "Input the Chip ID in http://resource.heltec.cn/search, and click Confirm ."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:18
+msgid ""
+"There with show some basic informations about this board, click Relevant "
+"Resource."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:28
+msgid ""
+"Now, will be bring to the products' download page. the files in the "
+"limited folder will become downloadable."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:32
+msgid ""
+"About in the winter of 2018, we began to not fully manage the chip ID. "
+"Some previous product Chip ID has not been synchronized to this database."
+" Anyway, users can mail to support@heltec.cn, we will regenerate one for "
+"you."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:36
+msgid "How to Get Chip ID"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:38
+msgid ""
+"The products' Chip ID is relative to the onboard MCU, each MCU have an "
+"unique ID."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:40
+msgid "ESP32 Core"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:41
+msgid "STM32 Core"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:42
+msgid "LoRa Node 030"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:43
+#: ../../general/view_limited_technical_data.md:61
+msgid "LoRa Node 151"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:44
+#: ../../general/view_limited_technical_data.md:75
+msgid "Turtle Board"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:45
+msgid "CubeCell Series (ASR650x Core)"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:47
+msgid "ESP32 (+ LoRa) Series"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:49
+msgid ""
+"Make sure you have already installed the Heltec ESP32 development "
+"framework."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:51
+msgid "Use this sample code: Chip ID read example."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:53
+msgid ""
+"After uploading this sample code, the Chip ID will be printed via serial "
+"port:"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:57
+msgid "STM32 series"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:59
+msgid ""
+"This Heltec STM32+LoRa Series Quick Start maybe helpful for the following"
+" operations."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:63
+msgid "How to Download Firmware to LoRa Node 151"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:65
+msgid ""
+"LoRa Node 151 use STM32L151CCU6, download this firmware into the LoRa "
+"Node 151:"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:67
+msgid "http://resource.heltec.cn/download/LoRa_Node_151/L151_Read_ID.zip"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:69
+#: ../../general/view_limited_technical_data.md:81
+msgid "Then the Chip ID will be printed via the virtual serial port (USB CDC)."
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:77
+msgid "How to Download Firmware to Turtle Board"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:79
+msgid "Turtle Board use STM32L432KC, download this firmware into Turtle Board:"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:85
+msgid "CubeCell Series"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:87
+msgid ""
+"Almost all resources for CubeCell are open source. Anyway, users can "
+"query the Chip ID via AT command:"
+msgstr ""
+
+#: ../../general/view_limited_technical_data.md:95
+msgid "Or via Get ChipID example code:"
+msgstr ""
+

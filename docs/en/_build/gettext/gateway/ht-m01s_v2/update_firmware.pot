@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:1
+msgid "HT-M01S (Rev. 2.0) Firmware Upgrade"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:3
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:6
+msgid "Summary"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:8
+msgid "This article aims to describe how to upgrade the HT-M01S (Rev. 2.0) firmware."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:16
+msgid "Firmware Upgrade Logs"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:18
+msgid "V1.0"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:19
+msgid "Initial release."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:23
+msgid "Upgrade Firmware"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:25
+msgid "Download HT-M01S (Rev. 2.0) corresponding upgrade firmware。"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:29
+msgid "Enter the HT-M01S (Rev. 2.0) gateway configuration interface (can refer to HT-M01S (Rev. 2.0) Quick Start)，click \"Firmwaer Update\"。"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:33
+msgid "Click \"Select firmware\" to select the corresponding upgrade firmware that has been downloaded, and click \"Update\" to upgrade."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:37
+msgid "After the upgrade is complete, a corresponding prompt will pop up and restart the gateway."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:41
+msgid "Complete Firmware Upgrade"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:43
+msgid "If the new firmware modifies the gateway's web configuration or the user accidentally overwrites the gateway firmware, it is necessary to burn the complete gateway firmware."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:45
+msgid "Download Firmware"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:47
+msgid "Download HT-M01S (Rev. 2.0) complete firmware。"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:49
+msgid "Open the downloaded file and edit the \"M01S_Vx_x.bat\" file."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:53
+msgid "Change the COM port to the corresponding COM port of HT-M01S (Rev. 2.0)."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:57
+msgid "Open the serial port corresponding to the HT-M01S (Rev. 2.0), press the \"+\" key -> press the \"RST\" key -> release the \"RST\" key -> wait for the serial port to print \"waiting for download\" -> release the \"+\" key."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:61
+msgid "Double-click to run \"M01S_Vx_x.bat\". When running to the interface shown in the figure below, perform the following operations, press \"+\" key -> press \"RST\" key -> release \"RST\" key -> release \"+\" key. After the window closes automatically, the firmware programming is complete."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:65
+msgid "Activate the Gateway"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:67
+msgid "After the firmware download is complete, open the serial port corresponding to the HT-M01S (Rev. 2.0) and read the corresponding ESP32 chip ID of the gateway."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:71
+msgid "Enter https://resource.heltec.cn/search, enter the ESP32 chip ID to query the serial number corresponding to the gateway."
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:75
+msgid "Open the serial port corresponding to the HT-M01S (Rev. 2.0), and send the command \"AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\" through the serial port to activate the gateway. Among them, \"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\" is the 32-bit license. For example, if the license is 0x12345678, 0x12345678, 0x12345678, 0x12345678, the activation command is AT+CDKEY=12345678123456781234567812345678"
+msgstr ""
+
+#: ../../gateway/ht-m01s_v2/update_firmware.md:79
+msgid "After the screen displays normally, the gateway is activated successfully."
+msgstr ""

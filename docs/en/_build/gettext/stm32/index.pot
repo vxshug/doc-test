@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Heltec
+# This file is distributed under the same license as the Heltec Automation Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Heltec Automation Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 01:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../stm32/index.rst:21
+msgid "Quick Start"
+msgstr ""
+
+#: ../../stm32/index.rst:21
+msgid "LoRaWAN"
+msgstr ""
+
+#: ../../stm32/index.rst:21
+msgid "LoRa Node 151"
+msgstr ""
+
+#: ../../stm32/index.rst:21
+msgid "Turtle Board"
+msgstr ""
+
+#: ../../stm32/index.rst:21
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../stm32/index.rst:2
+msgid "Contents"
+msgstr ""
+
+#: ../../stm32/index.rst:3
+msgid "`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/index.html>`_"
+msgstr ""
+
+#: ../../stm32/index.rst:5
+msgid "This document branch is for `Heltec STM32 + LoRa Node series <https://heltec.org/proudct_center/lora/lora-node/>`_."
+msgstr ""
+
+#: ../../stm32/index.rst:7
+msgid "STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of \"STM32 + LoRa\" combination:"
+msgstr ""
+
+#: ../../stm32/index.rst:9
+msgid "Low power features;"
+msgstr ""
+
+#: ../../stm32/index.rst:10
+msgid "Multiple bus interfaces;"
+msgstr ""
+
+#: ../../stm32/index.rst:11
+msgid "Powerful computing skills;"
+msgstr ""
+
+#: ../../stm32/index.rst:12
+msgid "Power mananagement system and different types of batteries support;"
+msgstr ""
+
+#: ../../stm32/index.rst:13
+msgid "Multiple general GPIOs;"
+msgstr ""
+
+#: ../../stm32/index.rst:14
+msgid "LoRaWAN 1.0.2 protocol support."
+msgstr ""
+
+#: ../../stm32/index.rst:18
+msgid "This series boards also don't have an onboard USB-UART bridge. If plug it directly into a computer, it may prompt \"Unrecognized USB device\", which is normal."
+msgstr ""
