@@ -73,83 +73,34 @@ General Docs
 .. |General Docs| image:: img/06.png
 .. _General Docs: general/index.html
 
+.. only:: lrgateway
+   .. toctree::
+      :hidden:
+      :caption: LORA GATEWAY
+      
+      gateway/index
+      gateway/sx1301module/index
+      gateway/ht-m00/index
+      gateway/ht-m01/index
+      gateway/ht-m01s/index
+      gateway/ht-m01s_v2/index
+      gateway/ht-m02_4g/index
+      gateway/ht-m02_poe/index
+      Frequently Asked Questions <gateway/frequently_asked_questions>
 
-.. toctree::
-   :hidden:
-   :caption: Language
-   
-   简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/index.html>
+.. only:: cubecell
+   .. toctree::
+      :hidden:
+      :caption: CubeCell
 
-.. toctree::
-   :hidden:
-   :caption: LORA GATEWAY
-   
-   gateway/index
-   gateway/sx1301module/index
-   gateway/ht-m00/index
-   gateway/ht-m01/index
-   gateway/ht-m01s/index
-   gateway/ht-m01s_v2/index
-   gateway/ht-m02_4g/index
-   gateway/ht-m02_poe/index
-   Frequently Asked Questions <gateway/frequently_asked_questions>
-   
-.. toctree::
-   :hidden:
-   :caption: CubeCell
-
-   cubecell/index
-   Quick Start <cubecell/quick_start>
-   cubecell/lorawan/index
-   AT Command List <https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.6.pdf>
-   cubecell/dev-board/index
-   cubecell/capsule-sensor/index
-   cubecell/module/index
-   Frequently Asked Questions <cubecell/frequently_asked_questions>
-
-.. toctree::
-   :hidden:
-   :caption: ESP32 + LoRa
-
-   esp32/index
-   Quick Start <esp32/quick_start>
-   esp32/lorawan/index
-   Maximum Distance Test <esp32/distance_test>
-   esp32/wifi_lora_32/index
-   esp32/wireless_stick/index
-   esp32/wireless_stick_lite/index
-   esp32/wireless_shell/index
-   esp32/wireless_bridge/index
-   Frequently Asked Questions <esp32/frequently_asked_questions>
-
-.. toctree::
-   :hidden:
-   :caption: STM32 + LoRa
-
-   stm32/index
-   Quick Start <stm32/quick_start>
-   stm32/lorawan/index
-   stm32/lora_node_151/index
-   stm32/turtle_board/index
-   Frequently Asked Questions <stm32/frequently_asked_questions>
-
-.. toctree::
-   :hidden:
-   :caption: ESP32 + Arduino
-   
-   esp32+arduino/index
-   Quick Start <esp32+arduino/quick_start>
-   esp32+arduino/wifi_kit_32/index
-   Frequently Asked Questions <esp32+arduino/frequently_asked_questions>
-   
-.. toctree::
-   :hidden:
-   :caption: ESP8266 + Arduino
-
-   esp8266+arduino/index
-   Quick Start <esp8266+arduino/quick_start>
-   esp8266+arduino/wifi_kit_8/index
-   Frequently Asked Questions <esp8266+arduino/frequently_asked_questions>
+      cubecell/index
+      Quick Start <cubecell/quick_start>
+      cubecell/lorawan/index
+      AT Command List <https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.6.pdf>
+      cubecell/dev-board/index
+      cubecell/capsule-sensor/index
+      cubecell/module/index
+      Frequently Asked Questions <cubecell/frequently_asked_questions>
 
 .. toctree::
    :hidden:
