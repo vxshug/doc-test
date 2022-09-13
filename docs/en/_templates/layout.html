@@ -1,10 +1,5 @@
 {% extends '!layout.html' %}
 {% block sidebartitle %}
-            <div class="selectors">
-              <select id="target-select" style="width: 150px;" hidden>
-                <option value="" disabled selected>Choose target...</option>
-              </select>
-            </div>
           
 	            {%- if logo and theme_logo_only %}
             <a href="{{ pathto(master_doc) }}">
@@ -35,6 +30,11 @@
               </div>
             {%- endif %}
           {%- endif %}
+            <div class="selectors">
+              <select id="target-select" style="width: 150px;" hidden>
+                <option value="" disabled selected>Choose target...</option>
+              </select>
+            </div>
 
           {%- include "searchbox.html" %}
 {% endblock %}
