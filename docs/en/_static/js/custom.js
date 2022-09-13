@@ -1,27 +1,31 @@
-function ht() {
-    var n = e("#target-select").val();
+var P = [
+    { text: "LORA GATEWAY", value: "gateway"},
+    { text: "CUBECELL", value: "cubecell"},
+    { text: "ESP32 + LORA", value: "esp32"},
+    { text: "STM32 + LORA", value: "stm32"},
+    { text: "ESP32 + ARDUINO", value: "esp32%2Barduino"},
+    { text: "ESP8266 + ARDUINO", value: "esp8266%2Barduino"},
+    { text: "GENERAL DOCS", value: "general"},
+ ]
+
+ function ht() {
+    var n = $("#product-select").val();
     window.location.href = function(e) {
-        let n = N + "/" + r
-          , i = w.find(e=>e.name === t);
-        return i ? (v(i, e) ? n += "/" + i.name : (i = w.find(t=>v(t, e)),
-        n += "/" + (i ? i.name : t)),
-        i.has_targets && (n += "/" + e)) : n += "/" + t + "/" + e,
-        n += "/" + d,
-        n
+        let h = window.location.href.split('/')
+        console.log(h)
+        let l = h.indexOf(document.documentElement.lang) + 2
+        h.split(l, h.length)
+        console.log(h.join('/') + '/' + e + '/index.html')
+        return h.join('/') + '/' + e + '/index.html'
     }(n)
 }
 
-var I = [
-    { text: "Lora", value: "lora"},
-    { text: "Gateway", value: "gateway"},
-    { text: "Test", value: "test"}
- ]
 $(function () {
-var e = document.getElementById("target-select");
+var e = document.getElementById("product-select");
 e.hidden = !1;
 e.onchange = ht;
-for (let r = 0; r < I.length; r++) {
-    let n = I[r];
+for (let r = 0; r < P.length; r++) {
+    let n = P[r];
     var t = new Option(n.text,n.value);
     e.add(t)
 }})

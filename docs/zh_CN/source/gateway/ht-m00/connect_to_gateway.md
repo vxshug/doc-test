@@ -1,6 +1,6 @@
 # 将节点连接到HT-M00
 
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/connect_to_gateway.html)
+:ht_translation:`en:[English]`
 
 ## 摘要
 

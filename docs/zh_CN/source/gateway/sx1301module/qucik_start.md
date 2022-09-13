@@ -1,5 +1,5 @@
 # SX130x LoRa网关模块快速入门
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/sx1301module/qucik_start.html)
+:ht_translation:`en:[English]`
 ## 摘要
 
 SX130x LoRa网关模块包含SX1301和SX1308两种基带型号，其性能、驱动程序、接口封装、功能完全一致，区别在于工作温度区间，SX1301定位为室外型，SX1308定位为室内型。可以与支持Linux操作系统的硬件（例如树莓派）配合使用，然后作为LoRa网关。

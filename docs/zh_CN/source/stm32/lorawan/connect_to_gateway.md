@@ -1,5 +1,5 @@
 # 将 "STM32 + LoRa" 连接到LoRaWAN服务器
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/connect_to_gateway.html)
+:ht_translation:`en:[English]`
 
 在本文档中，所有操作和测试必须使用标准的[[LoRaWAN 网关](https://heltec.org/proudct_center/lora/lora-gateway/)进行，并且至少有8个通道。
 

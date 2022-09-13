@@ -1,5 +1,5 @@
 #  	LoRa节点连接到单/双通道网关
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/connect_to_single_channel_gateway.html)
+:ht_translation:`en:[English]`
 
 ## 摘要
 

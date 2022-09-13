@@ -1,5 +1,5 @@
 # CubeCell配置LoRaWAN网络参数（Dev EUI、App Key等）
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/config_parameter.html)
+:ht_translation:`en:[English]`
 
 ## 摘要
 

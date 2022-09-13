@@ -1,5 +1,5 @@
 # LoRa Node 151 Pingpong test
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lora_node_151/pingpong_test.html)
+:ht_translation:`zh_CN:[中文]`
 
 ## Prepare
 

@@ -1,6 +1,6 @@
 # Wireless Bridge BLE_LoRa 例程用户手册
 
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wireless_bridge/ble_lora_user_manual.html)
+:ht_translation:`en:[English]`
 
 ## 摘要
 

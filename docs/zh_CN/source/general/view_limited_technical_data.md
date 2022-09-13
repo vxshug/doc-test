@@ -1,5 +1,5 @@
 # 获取受限的技术资源
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html)
+:ht_translation:`en:[English]`
 
 我们在[GitHub](https://GitHub.com/HelTecAutomation)或[Resource Page](http://Resource.heltec.cn/)中发布了所有相关资源。
 

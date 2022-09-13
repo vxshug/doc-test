@@ -1,6 +1,6 @@
 # Connect Nodes to HT-M00
 
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/connect_to_server.html)
+:ht_translation:`zh_CN:[中文]`
 
 ## Summary
 

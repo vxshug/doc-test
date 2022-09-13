@@ -1,5 +1,5 @@
 # HT-M02系统升级
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m02_4g/system_upgrade.html)
+:ht_translation:`en:[English]`
 ## 摘要
 
 [HT-M02](https://heltec.org/project/ht-m02/)有两种升级系统的方法。

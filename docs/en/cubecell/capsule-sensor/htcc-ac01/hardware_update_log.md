@@ -1,5 +1,5 @@
 # HTTC - AC01 Hardware Update Logs
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/capsule-sensor/htcc-ac01/hardware_update_log.html)
+:ht_translation:`zh_CN:[中文]`
 ## V1
 
 - First release

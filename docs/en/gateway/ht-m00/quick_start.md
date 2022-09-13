@@ -1,5 +1,5 @@
 # HT-M00 Dual Channel LoRa Gateway Quick Start
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/quick_start.html)
+:ht_translation:`zh_CN:[中文]`
 
 ## Summary
 

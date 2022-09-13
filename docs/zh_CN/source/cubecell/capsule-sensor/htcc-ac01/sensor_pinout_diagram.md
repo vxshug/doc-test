@@ -1,5 +1,5 @@
 # 传感器引脚图
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/capsule-sensor/htcc-ac01/sensor_pinout_diagram.html)
+:ht_translation:`en:[English]`
 
 ![](img/sensor_pinout_diagram/BH1750.png)
 

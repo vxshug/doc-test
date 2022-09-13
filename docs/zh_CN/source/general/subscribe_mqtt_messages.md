@@ -1,5 +1,5 @@
 # 如何从LoRa服务器订阅MQTT消息
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/subscribe_mqtt_messages.html)
+:ht_translation:`en:[English]`
 
 ## 概述
 

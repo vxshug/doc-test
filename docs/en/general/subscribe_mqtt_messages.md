@@ -1,5 +1,5 @@
 # How to Subscribe MQTT Messages from LoRa Server
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/subscribe_mqtt_messages.html)
+:ht_translation:`zh_CN:[中文]`
 
 ## Overview
 

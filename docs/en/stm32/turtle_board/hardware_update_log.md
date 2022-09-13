@@ -1,5 +1,5 @@
 # Turtle Board  Hardware Update Logs
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/turtle_board/hardware_update_log.html)
+:ht_translation:`zh_CN:[中文]`
 ## V1.1
 
 ![](img/hardware_update_log/01.png)

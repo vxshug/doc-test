@@ -1,5 +1,5 @@
 # RadioShuttle Protocol Resource
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/turtle_board/radioshuttle_protocol_resource.html)
+:ht_translation:`zh_CN:[中文]`
 
 ## The RadioShuttle Wireless Protocol
 

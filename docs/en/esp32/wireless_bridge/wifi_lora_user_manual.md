@@ -1,6 +1,6 @@
 # Wireless Bridge WiFi_LoRa Example User Manual
 
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/wireless_bridge/wifi_lora_user_manual.html)
+:ht_translation:`zh_CN:[中文]`
 
 ## Summary
 

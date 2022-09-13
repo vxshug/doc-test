@@ -1,5 +1,5 @@
 # Wireless Stick Lite硬件更新日志
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wireless_stick_lite/hardware_update_log.html)
+:ht_translation:`en:[English]`
 ## V1
 
 ![](img/hardware_update_log/01.png)

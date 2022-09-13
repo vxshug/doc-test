@@ -1,5 +1,5 @@
 # HTTC - AB01硬件更新日志
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/dev-board/htcc-ab01/hardware_update_log.html)
+:ht_translation:`en:[English]`
 
 ## V1
 

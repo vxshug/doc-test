@@ -1,6 +1,6 @@
 # HT-M01S室内LoRa网关快速入门
 
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/quick_start.html)
+:ht_translation:`en:[English]`
 
 ## 摘要
 

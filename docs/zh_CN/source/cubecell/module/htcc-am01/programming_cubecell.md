@@ -1,5 +1,5 @@
 # 如何为CubeCell模块编程
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/module/htcc-am01/programming_cubecell.html)
+:ht_translation:`en:[English]`
 
 **CubeCell模块提供两种版本：**
 

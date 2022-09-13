@@ -1,5 +1,5 @@
 # 将HT-M01S连接到LoRa服务器
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/connect_to_server.html)
+:ht_translation:`en:[English]`
 
 ## 摘要
 

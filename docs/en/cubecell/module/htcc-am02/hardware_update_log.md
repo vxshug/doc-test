@@ -1,5 +1,5 @@
 # HTTC - AM02 Hardware Update Logs
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/module/htcc-am02/hardware_update_log.html)
+:ht_translation:`zh_CN:[中文]`
 
 **HTCC-AM02 only have ASR6502 and RF relevant circuit inside. In order to program it, need connect to an external UART-USB bridge. CH340G, CP2102 etc.**
 

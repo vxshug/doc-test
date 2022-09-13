@@ -1,5 +1,5 @@
 # HT-M01S固件升级
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/update_firmware.html)
+:ht_translation:`en:[English]`
 
 ## 摘要
 

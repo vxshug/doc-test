@@ -1,5 +1,5 @@
 # 胶囊传感器快速入门
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/capsule-sensor/htcc-ac01/capsule_quick_start.html)
+:ht_translation:`en:[English]`
 ## 摘要
 
 **使用胶囊传感器时，请注意以下问题**

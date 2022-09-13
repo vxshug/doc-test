@@ -1,5 +1,5 @@
 # HT-M02系统升级
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m02_poe/system_upgrade.html)
+:ht_translation:`en:[English]`
 
 ## 摘要
 

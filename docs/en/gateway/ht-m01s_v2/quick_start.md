@@ -1,6 +1,6 @@
 # HT-M01S (Rev. 2.0) Quick Start
 
-[简体中文]()
+:ht_translation:`zh_CN:[中文]`
 
 ## Summary
 

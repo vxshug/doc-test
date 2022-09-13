@@ -1,5 +1,5 @@
 # Capsule Sensor Quick Start
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/capsule-sensor/htcc-ac01/capsule_quick_start.html)
+:ht_translation:`zh_CN:[中文]`
 ## Summary
 
 **Pay attention to the following issues while using a capsule sensor**

@@ -1,5 +1,5 @@
 # Publish MQTT Message
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/publish_mqtt_message.html)
+:ht_translation:`zh_CN:[中文]`
 
 Before operation, make sure that the gateway and node are connected, and the gateway and node can work normally.
 

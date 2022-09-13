@@ -1,6 +1,6 @@
 # LoRaWAN Frequency Plans
 
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/lorawan_frequency_plans.html)
+:ht_translation:`zh_CN:[中文]`
 
 ## Summary
 

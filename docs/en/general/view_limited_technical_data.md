@@ -1,5 +1,5 @@
 # Get Limited Technical Resources
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/view_limited_technical_data.html)
+:ht_translation:`zh_CN:[中文]`
 
 We released all relevant resources in [GitHub](https://github.com/HelTecAutomation) or [Resource Page](http://resource.heltec.cn/).
 

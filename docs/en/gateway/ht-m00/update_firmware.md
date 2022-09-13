@@ -1,6 +1,6 @@
 # HT-M00 Firmware Upgrade
 
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/update_firmware.html)
+:ht_translation:`zh_CN:[中文]`
 
 
 ## Summary

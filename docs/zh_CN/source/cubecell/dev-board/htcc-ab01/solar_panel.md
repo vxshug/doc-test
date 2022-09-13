@@ -1,5 +1,5 @@
 # 连接太阳能板到HTCC-AB01
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/dev-board/htcc-ab01/solar_panel.html)
+:ht_translation:`en:[English]`
 
 请参考 [HTCC-AB01的引脚图](https://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_PinoutDiagram.pdf).
 

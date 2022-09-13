@@ -1,6 +1,6 @@
 # Heltec LoRaWAN 测试服务器登录问题
 
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/tts_v3_login_issue.html)
+:ht_translation:`en:[English]`
 
 2021 年 6 月，我们将 Heltec Cloud Server 替换为更科学的 TTS V3，这是一个永久免费的服务器。 可以用于一些简单应用的通信测试和生产环境。在原有TTS V3的基础上，我们增加了用户同步功能。 这样做的目的是为了让Heltec官网账号可以同时登录Heltec论坛和Heltec的LoRaWAN测试服务器。
 

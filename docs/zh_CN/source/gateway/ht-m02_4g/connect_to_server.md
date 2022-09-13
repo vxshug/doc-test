@@ -1,5 +1,5 @@
 # 将HT-M02连接到LoRa服务器
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m02_4g/connect_to_server.html)
+:ht_translation:`en:[English]`
 
 ## 摘要
 
