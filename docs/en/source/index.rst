@@ -2,6 +2,7 @@ Heltec Automation Docs Page
 ===========================
 
 :ht_translation:`zh_CN:[中文]`
+
 This is the documentation for `Heltec Automation <https://heltec.org>`_ products.
    
 Nodes
