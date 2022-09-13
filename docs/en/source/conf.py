@@ -30,7 +30,7 @@ author = 'Heltec'
 master_doc = 'index'
 
 # The full version, including alpha/beta/rc tags
-release = 'V0.0.1'
+release = 'latest'
 
 
 source_suffix = ['.rst', '.md']
