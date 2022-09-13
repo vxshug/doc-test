@@ -66,6 +66,10 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_js_files = [
+    'js/custom.js',
+]
+
 def setup(app):
     app.add_config_value('recommonmark_config', {
         'enable_math': True,
