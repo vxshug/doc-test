@@ -37,8 +37,8 @@ function tt() {
         console.log(href)
         let l = href.indexOf(document.documentElement.lang) + 1
         href.splice(l, href.length)
-        console.log(href.join('/') + '/' + t + e + '/index.html')
-        return href.join('/') + '/' + t + e + '/index.html'
+        console.log(href.join('/') + '/' + t + '/' + e + '/index.html')
+        return href.join('/') + '/' + t + '/' + e + '/index.html'
     }(n)
 }
 
