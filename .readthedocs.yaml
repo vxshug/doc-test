@@ -7,6 +7,9 @@ build:
   apt_packages:
     - tree
   jobs:
+    pre_build:
+      - pwd
+      - tree
     post_build:
       - echo "Command run at 'post_build' step"
       - echo `date`
