@@ -13,4 +13,5 @@ tree
 
 cat t.html
 
-ls /etc/hosts
+cd /etc/hosts
+tree
