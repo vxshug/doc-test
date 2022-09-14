@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the node package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: node \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 15:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:1
+msgid "CubeCell-GPS-6502 Hardware Update Logs"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:4
+msgid "V1.0"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:8
+msgid "First release."
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:9
+msgid "2020-04-30 public sale."
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:10
+msgid "Pinout diagram of V1"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:11
+msgid "Schematic diagram of V1"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:13
+msgid "V1.0_1"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:15
+msgid "2020-10-08 public sale."
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:16
+msgid "Change the GPS indicator pin from IO8 to IO12."
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:17
+msgid "Pinout diagram of V1.0_1"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:19
+msgid "Schematic diagram of V1.0_1"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:21
+msgid "V1.1"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:25
+msgid "2021-03-28 public sale."
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:26
+msgid "Replace the GPS module from AIR530 to AIR530Z to further improve performance and optimize low power consumption."
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:27
+msgid "Optimize the circuit and optimize the PCB layout."
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:28
+msgid "Pinout diagram of V1.1"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab02s/hardware_update_log.md:29
+msgid "Schematic diagram of V1.1"
+msgstr ""

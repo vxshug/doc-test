@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the node package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: node \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 15:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:1
+msgid "LoRa Node 151 Pingpong test"
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:4
+msgid "Prepare"
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:6
+msgid "Download LoRa Node 151 pingpong example: pingpong_CDC."
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:8
+msgid "Download firmware to LoRa Node 151, Please refer to Download firmware."
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:10
+msgid "Start test"
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:12
+msgid "After downloading the firmware correctly, connect the development board to the computer and open the serial port."
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:16
+msgid "After opening the serial port, some parameters will be configured. If you do not configure them, the default parameters will be selected."
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:18
+msgid "Configure Frequency Band"
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:22
+msgid "Configure Spreading Factor"
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:26
+msgid "Configure Coding Rate"
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:30
+msgid "Configure Output Power"
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:34
+msgid "When the configuration is complete, the node will enter a wait state."
+msgstr ""
+
+#: ../../source/stm32/lora_node_151/pingpong_test.md:38
+msgid "Then configure another Lora node 151 node in the same way. After configuration, the two nodes will enter the pingpong test."
+msgstr ""

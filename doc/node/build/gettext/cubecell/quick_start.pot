@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the node package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: node \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 15:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/cubecell/quick_start.md:1
+msgid "CubeCell Series Quick Start"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:3
+msgid "Summary"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:5
+msgid "CubeCell is based on ASR650x series, this page shown how to install and configuration CubeCell Arduino Framework, and how to uploading and running code (examples)."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:7
+msgid "Install CubeCell Relevant Framework"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:9
+msgid "there are two methods to install the CubeCell framework, choose one of them."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:11
+#: ../../source/cubecell/quick_start.md:20
+msgid "Use Arduino board manager"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:12
+#: ../../source/cubecell/quick_start.md:42
+msgid "Via Git"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:18
+msgid "If not, please view this two articles establish serial connection and Install Git and Arduino IDE."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:22
+msgid "Open Arduino IDE, and click File->Peferences->Settings"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:28
+msgid "Input following json url to board manager URLs:"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:30
+msgid "https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.4.0/package_CubeCell_index.json"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:34
+msgid "Click Tools->Board:->Boards Manager..., search Heltec cubecellin the new pop-up dialog, select the latest releases and  click install"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:40
+msgid "The source code of Heltec ASR650x series (ASR6501&ASR6502) framework available here: https://github.com/HelTecAutomation/ASR650x-Arduino"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:44
+msgid "For Windows: https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/windows.md"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:45
+msgid "For MacOS: https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/mac.md"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:46
+msgid "For Linux(Ubuntu/Debian): https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/debian_ubuntu.md"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:51
+msgid "Running an Example"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:53
+msgid "Connect your CubeCell board to computer via a high quality Micro USB cable (This is the most common reason we had encountered can’t program software)."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:55
+msgid "Correctly Config the Tools Menu"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:57
+msgid "In the tools menu, there are following options:"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:59
+msgid "Board -- Choose the right hardware connected to your computer;"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:60
+msgid "LORAWAN_REGION -- LoRaWAN protocol region definition, strictly follow LoRaWAN™ 1.0.2 Regional Parameters rB;"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:61
+msgid "LORAWAN_CLASS -- Now with Class A and Class C supported;"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:62
+msgid "LORAWAN_DEVEUI -- The source of the LoRaWAN parameter DevEUI"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:63
+msgid "CUSTOM -- Use the value defined in the devEui array, which is in the .ino file, Can be any value, but it may conflict with other serial numbers."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:64
+msgid "Generate by ChipID -- Generated based on the ASR650x's unique Chip ID"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:65
+msgid "LORAWAN_NETMODE -- OTAA or ABP;"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:66
+msgid "LORAWAN_ADR -- Turn ON or turn OFF ADR (Adaptive Data Rate);"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:67
+msgid "LORAWAN_Net_Reservation -- This is a feature outside the LoRaWAN protocol, only valid in OTAA mode. If this option is enabled, when system reset does not need join again. Projects such as smart street lights may be useful."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:68
+msgid "LORAWAN_UPLINKMODE -- LoRa uplink confirmed/unconfirmed messages. Confirmed messages need server send downlink to node, but some LoRa server have downlink limited (such as TTN)."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:69
+msgid "LORAWAN_AT_SUPPORT -- AT command will provide many useful functions, for example, users can use serial port to config LoRa Node's DevEui, AppKey, or make node sleep, reset etc."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:70
+msgid "LORAWAN_RGB -- RGB light for LoRaWAN status:"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:71
+msgid "Purple -- Join;"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:72
+msgid "Blue -- First RX window;"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:73
+msgid "Yellow -- Second RX window;"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:74
+msgid "Green -- Join done."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:75
+msgid "LoRaWan Debug Level -- LoRaWAN relevant messages print by serial port"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:76
+msgid "None -- Default;"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:77
+msgid "Freq -- Sending/receiving frequency;"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:78
+msgid "Freq && DIO -- Sending/receiving frequency, and DIO pin interrupt information."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:79
+msgid "COM Port -- Device's serial port in your computer."
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:88
+msgid "Select an example"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:92
+msgid "Compile and upload"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:98
+msgid "New a sketch for CubeCell"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:100
+msgid "In Arduino IDE, click File --> new and copy the following code:"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:117
+msgid "External resources"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:119
+msgid "Serial port cannot connected to Linux system?"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:121
+msgid "In the Linux system, If encounter the serial port cannot be connected. Please refer to this document: https://playground.arduino.cc/Linux/All/#Permission"
+msgstr ""
+
+#: ../../source/cubecell/quick_start.md:126
+msgid "Enjoy!"
+msgstr ""

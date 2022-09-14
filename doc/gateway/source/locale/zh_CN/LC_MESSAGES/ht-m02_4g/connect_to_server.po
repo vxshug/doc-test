@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the gateway package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gateway \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 15:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/ht-m02_4g/connect_to_server.md:1
+msgid "Connect HT-M02 to a LoRa Server"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:4
+msgid "Summary"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:6
+msgid ""
+"This article aims to describe how to connect HT-M02 Gateway to a LoRa "
+"server, such as TTN, ChirpStack, which facilitates secondary development "
+"and rapid deployment of LoRa devices."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:8
+msgid ""
+"Before all operation, make sure the HT-M02 is runing well . If not, "
+"please refer to this HT-M02(4G/LTE) Quick Start document."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:12
+msgid "Get the Gateway EUI"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:14
+msgid ""
+"Generally, the EUI of the gateway will be pasted on the surface of the "
+"gateway."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:18
+msgid "The Gateway EUI also can be read via this command:"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:20
+msgid "cat lora/packet_forwarder/lora_pkt_fwd/local_conf.json"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:26
+#: ../../source/ht-m02_4g/connect_to_server.md:47
+msgid "Connect to TTN"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:28
+msgid "Register a LoRa gateway in TTN"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:30
+msgid "Create and active an account in TTN. Select Gateway in the console page."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:34
+#: ../../source/ht-m02_4g/connect_to_server.md:110
+msgid "Fill in the HT-M02 information as shown below and complete the addition."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:38
+msgid "Gateway EUI -- The unique ID of HT-M02 gateway;"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:39
+msgid "I'm using the legacy packet forwarder -- Must select this;"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:40
+msgid "Frequency Plan -- Must matach the LoRa band configuration in HT-M02；"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:41
+msgid "Router -- Must use the default router allocated by TTN system."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:49
+#: ../../source/ht-m02_4g/connect_to_server.md:118
+msgid ""
+"In the HT-M02 gateway, only the server address and port need to be "
+"configured."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:51
+#: ../../source/ht-m02_4g/connect_to_server.md:120
+msgid "config the server address and port in global_conf.json:"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:57
+#: ../../source/ht-m02_4g/connect_to_server.md:126
+msgid "At the end of this file, make suitable changes:"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:67
+#: ../../source/ht-m02_4g/connect_to_server.md:136
+msgid "ctrl + O to save and ctrl + X to exit, and restart the service:"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:73
+#: ../../source/ht-m02_4g/connect_to_server.md:142
+msgid "Check whether the system running normally:"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:81
+msgid "The TTN's router addresses for different region:"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:83
+msgid ""
+"https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-"
+"udp.html#router-addresses"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:87
+msgid "View gateway status, it is runing:："
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:93
+#: ../../source/ht-m02_4g/connect_to_server.md:116
+msgid "Connect to ChirpStack server"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:95
+msgid ""
+"ChirpStack is the most popular LoRa server open source project, widely "
+"used in many fields, and also the best choise for a private LoRa server."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:97
+msgid "ChirpStack Installation guide: https://www.chirpstack.io/overview/"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:98
+msgid "ChirpStack support forum: https://forum.chirpstack.io/"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:100
+msgid "ChirpStack Gateway Bridge"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:102
+msgid ""
+"One thing need attention! the ChirpStack need a special service named "
+"Gateway Bridge, which converts LoRa® Packet Forwarder protocols into a "
+"ChirpStack Network Server common data-format(JSON and Protobuf)."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:104
+msgid ""
+"the Gateway Bridge service can running on the Raspberry Pi or the "
+"ChirpStack server."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:106
+msgid ""
+"Install ChirpStack Gateway Bridge: https://www.chirpstack.io/gateway-"
+"bridge/install/debian/"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:108
+msgid "Register LoRa Gateway in ChirpStack"
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:114
+msgid "Gateway ID -- The unique ID of the HT-M02 gateway."
+msgstr ""
+
+#: ../../source/ht-m02_4g/connect_to_server.md:150
+msgid "View gateway status, it is runing:"
+msgstr ""
+

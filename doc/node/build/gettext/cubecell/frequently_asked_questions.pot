@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the node package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: node \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 15:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/cubecell/frequently_asked_questions.md:1
+msgid "Heltec<sup>TM</sup> CubeCell<sup>TM</sup> Series Frequently Asked Questions"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:4
+msgid "This page contains the most frequently questions from user. If this page's detail can't solve your problem, you can also talk in our forum: community.heltec.cn"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:8
+msgid "How to Access Bootloader Mode"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:10
+msgid "The bootloader of CubeCell<sup>TM</sup> is preprogrammed software for burning and verification firmware. In FLASH row 0~33, rewrite this part will break the bootloader and can't download firmware anymore."
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:12
+msgid "Entering the bootloader mode needs to meet the following timing (T<sub>RST</sub>≥10mS):"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:16
+msgid "Here are two methods access bootloader manually:"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:18
+msgid "CubeCell not connect to a computer -- Press the “USER” button of the CubeCell while plugging it to any USB port of a computer."
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:19
+msgid "CubeCell already connected to a computer -- Keep the \"USER\" button pressed → Press the \"RESET\" button → Release the \"RESET\" button → release the \"USER\" button."
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:21
+msgid "USER Pin map"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:23
+msgid "Dev-Board"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:24
+msgid "HTCC-AB01 -- GPIO 7"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:25
+msgid "HTCC-AB02 -- GPIO 11 or GPIO 16"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:26
+msgid "HTCC-AB02S -- GPIO 11 or GPIO 16"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:27
+msgid "HTCC-AB02A -- GPIO 11 or GPIO 16"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:28
+msgid "Module"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:29
+msgid "HTCC-AM01 -- GPIO 0"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:30
+msgid "HTCC-AM02 -- GPIO 11 or GPIO 16"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:32
+msgid "Capsule Sensor"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:33
+msgid "Capsule Sensor(HTCC-AC01) + Debug board -- GPIO 0"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:47
+msgid "How to use the ADC pin for AnalogRead (ASR6501)"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:49
+msgid "The ASR6501 embedded 12-bit 1Msps SAR ADC, but only have one channel ADC input pin, this pin had been used for battery voltage reading default."
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:53
+msgid "In order to read other analog signal, user need remove the resistance BR1, then the ADC header will be free."
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:65
+msgid "Vext Control"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:67
+msgid "The Vext is a power source for external devices. Refer from the schematic diagram, It's controlled by GPIO6:"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:71
+msgid "GPIO 6 --> LOW --> Vext(3.3V/300mA) ON"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:73
+msgid "GPIO 6 --> HIGH --> Vext(3.3V/300mA) OFF"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:79
+msgid "How to upgrade using firmware"
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:80
+msgid "Select the desired project to compile."
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:81
+msgid "Find the location of the CubeCellelftool.exe file and the file of type .cyacd in the build process information."
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:82
+msgid "Create a new folder and copy the two files of appeal to this folder."
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:83
+msgid "Check the port number of the development board (it is assumed to be COM3 here)."
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:84
+msgid "Open a command line window under Windows and go to the folder you created above. Enter the following command and execute it to download."
+msgstr ""
+
+#: ../../source/cubecell/frequently_asked_questions.md:85
+msgid "CubeCellflash.exe -serial COM3   XXXXXXXX.cyacd"
+msgstr ""

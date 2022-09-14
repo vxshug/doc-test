@@ -24,12 +24,19 @@ if errorlevel 9009 (
 )
 
 if "%1" == "" goto help
+if "%1" == "zh" goto zh
 
 %SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
 goto end
 
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+echo.make zh to update zh
+
+goto end
+
+:zh
+sphinx-intl update -p build/gettext -l zh_CN
 
 :end
 popd

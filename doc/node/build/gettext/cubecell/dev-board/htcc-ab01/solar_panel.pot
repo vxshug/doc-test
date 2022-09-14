@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the node package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: node \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 15:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/cubecell/dev-board/htcc-ab01/solar_panel.md:1
+msgid "Connect a Solar Panel to HTCC-AB01"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab01/solar_panel.md:2
+msgid ":ht_translation:zh_CN:[中文]"
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab01/solar_panel.md:4
+msgid "Please refer to the pinout diagram of HTCC-AB01."
+msgstr ""
+
+#: ../../source/cubecell/dev-board/htcc-ab01/solar_panel.md:6
+msgid "The VS pin is the solar panel input, any 5.5~7V solar panel can be connected to this VS and GND."
+msgstr ""
