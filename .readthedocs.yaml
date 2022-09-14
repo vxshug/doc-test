@@ -13,5 +13,5 @@ build:
       - bash install.sh
 sphinx:
   builder: html
-  configuration: doc/main/conf.py
+  configuration: doc/main/
   fail_on_warning: false
