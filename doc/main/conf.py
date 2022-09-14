@@ -6,6 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import os
+
 project = 'main'
 copyright = '2022, shug'
 author = 'shug'
@@ -26,3 +28,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+def setup(app):
+    os.system("pwd")
+    os.system("tree")
+    os.system("bash install.sh")
