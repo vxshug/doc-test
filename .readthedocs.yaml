@@ -8,8 +8,7 @@ build:
     - tree
   jobs:
     pre_build:
-      - pwd
-      - tree
+      - bash test.sh
     post_build:
       - echo "Command run at 'post_build' step"
       - echo `date`
