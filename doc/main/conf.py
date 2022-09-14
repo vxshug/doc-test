@@ -33,3 +33,4 @@ def setup(app):
     os.system("pwd")
     os.system("tree")
     os.system("bash install.sh")
+    os.system("tree")
