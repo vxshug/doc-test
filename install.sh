@@ -1,12 +1,9 @@
 #!/bin/bash
 
-
-echo "test"
-
-tree
-
-python -m
-
 pwd
 
 which python
+
+df -h
+
+echo 'test' > doc/main/_build/html
