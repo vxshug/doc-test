@@ -16,29 +16,29 @@ var prod_obj = {
 }
 
 function tt() {
-    var e = document.getElementById("product-select");
-    var t = $("#type-select").val();
+    let e = document.getElementById("product-select");
+    let t = $("#type-select").val();
     console.log(t);
     console.log(prod_obj);
     e.options.length = 1
     for (let r = 0; r < prod_obj[t].length; r++) {
         let m = prod_obj[t][r];
         console.log(m);
-        var t = new Option(m.text,m.value);
-        e.add(t)
+        var o = new Option(m.text,m.value);
+        e.add(o)
     }
 }
 
  function ht() {
     var n = $("#product-select").val();
     window.location.href = function(e) {
-        var t = $("#type-select").val();
-        let h = window.location.href.split('/')
-        console.log(h)
-        let l = h.indexOf(document.documentElement.lang) + 1
-        h.splice(l, h.length)
-        console.log(h.join('/') + '/' + t + h + '/index.html')
-        return h.join('/') + '/' + t + h + '/index.html'
+        let t = $("#type-select").val();
+        let href = window.location.href.split('/')
+        console.log(href)
+        let l = href.indexOf(document.documentElement.lang) + 1
+        href.splice(l, href.length)
+        console.log(href.join('/') + '/' + t + e + '/index.html')
+        return href.join('/') + '/' + t + e + '/index.html'
     }(n)
 }
 
