@@ -8,11 +8,7 @@ build:
     - tree
   jobs:
     pre_build:
-      - bash test.sh
-    post_build:
-      - echo "Command run at 'post_build' step"
-      - echo `date`
-      - bash install.sh
+      - bash show.sh
 sphinx:
   builder: html
   configuration: doc/main/conf.py

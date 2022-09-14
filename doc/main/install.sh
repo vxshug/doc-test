@@ -3,27 +3,25 @@
 #echo 'test' > ./_build/html/h.html 
 
 language="zh_CN en"
-gateway="gateway"
-node="node"
 
-node_proj="t1 t2"
-gateway_proj="m01 m02"
+ls_command="ls -I _ext -I main ../"
+
+proj_type=$(${ls_command})
 
 
 build () {
-  python -m sphinx -t $3 -T -E -b html -d _build/$1/$2/$3/doctrees -D language=$1 $4 _build/html/$1/$2/$3
+  python -m sphinx -T -E -b html -d _build/$1/$2/$3/doctrees -D language=$1 $4 _build/html/$1/$2/$3
 }
 
 
 for l in $language
 do
-  for t in $node_proj
+  for t in $proj_type
   do
-    build $l $node $t "../${node}/source/"
-  done
-  for t in $gateway_proj
-  do
-    build $l $gateway $t "../${gateway}/source/"
+    for p in $(${ls_command}/${t})
+    do
+      build $l $t $p "../${t}/${p}/source/"
+    done
   done
 done
 
