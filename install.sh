@@ -6,8 +6,7 @@ which python
 
 df -h
 
-echo 'test' > doc/main/_build/html/index.html
+echo 'test' > doc/main/_build/html/t.html
 cat  doc/main/_build/html/index.html
-rm doc/main/_build/html/index.html
 cd doc/main/_build/html
 tree
