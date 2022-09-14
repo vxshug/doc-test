@@ -35,7 +35,8 @@ function tt() {
         let t = $("#type-select").val();
         let href = window.location.href.split('/')
         console.log(href)
-        let l = href.indexOf(document.documentElement.lang) + 1
+        let ll = document.documentElement.lang.replace('-', '_')
+        let l = href.indexOf(ll) + 1
         href.splice(l, href.length)
         console.log(href.join('/') + '/' + t + '/' + e + '/index.html')
         return href.join('/') + '/' + t + '/' + e + '/index.html'
