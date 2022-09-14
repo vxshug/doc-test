@@ -4,7 +4,6 @@ pwd
 
 which python
 
-tree ..
 
 df -h
 
@@ -14,5 +13,5 @@ cat  doc/main/_build/html/index.html
 cd doc/main/_build/html
 tree
 
-cat t.html
+cat index.html
 
