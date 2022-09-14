@@ -11,3 +11,7 @@ build:
       - echo "Command run at 'post_build' step"
       - echo `date`
       - bash install.sh
+sphinx:
+  builder: html
+  configuration: doc/main/conf.py
+  fail_on_warning: true
