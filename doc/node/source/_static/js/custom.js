@@ -53,8 +53,8 @@ e.hidden = !1;
 e.onchange = ht;
 for (let r = 0; r < P.length; r++) {
     let n = P[r];
-    var t = new Option(n.text,n.value);
-    t.add(t)
+    var o = new Option(n.text,n.value);
+    t.add(o)
     if (t.options[t.options.length -1].value === th) {
         t.options[t.options.length -1].selected = true
     }
