@@ -6,8 +6,8 @@ language="zh_CN en"
 gateway="gateway"
 node="node"
 
-node_proj="test"
-gateway_proj="test"
+node_proj="t1 t2"
+gateway_proj="m01 m02"
 
 
 build () {
