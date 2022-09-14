@@ -18,13 +18,15 @@ var prod_obj = {
 function tt() {
     var e = document.getElementById("product-select");
     var t = $("#type-select").val();
+    console.log(t);
+    console.log(prod_obj);
     e.options.length = 1
     for (let r = 0; r < prod_obj[t].length; r++) {
         let m = prod_obj[t][r];
+        console.log(m);
         var t = new Option(m.text,m.value);
         e.add(t)
     }
-
 }
 
  function ht() {
@@ -34,7 +36,7 @@ function tt() {
         let h = window.location.href.split('/')
         console.log(h)
         let l = h.indexOf(document.documentElement.lang) + 1
-        h.split(l, h.length)
+        h.splice(l, h.length)
         console.log(h.join('/') + '/' + t + h + '/index.html')
         return h.join('/') + '/' + t + h + '/index.html'
     }(n)
@@ -47,6 +49,8 @@ var th = window.location.href.split('/')[4]
 var eh = window.location.href.split('/')[5]
 console.log(t)
 console.log(e)
+console.log(th)
+console.log(eh)
 t.hidden = !1;
 t.onchange = tt;
 e.hidden = !1;
@@ -54,10 +58,10 @@ e.onchange = ht;
 for (let r = 0; r < P.length; r++) {
     let n = P[r];
     var o = new Option(n.text,n.value);
-    t.add(o)
-    if (t.options[t.options.length -1].value === th) {
-        t.options[t.options.length -1].selected = true
+    if (o.value === th) {
+        o.selected = true
     }
+    t.add(o)
 }
 tt()
 for (let r = 0; r < e.options.length; r++) {
