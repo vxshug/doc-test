@@ -24,13 +24,15 @@ class TranslationLinkNodeTransform(SphinxPostTransform):
         for node in self.document.traverse(translation_link):
             if 'html' in self.app.builder.name:
                 rawtext, text, options = node['expr']
-                (language, link_text) = text.split(':')
+                (_, link_text) = text.split(':')
                 env = self.document.settings.env
+                config = self.config
                 docname = env.docname
                 doc_path = env.doc2path(docname, False)
                 # then take off 2/3 more paths for language/release/targetname and build the new URL
-                url = '{}.html'.format(os.path.join(doc_path, self.language, docname))
-
+                url = '{}.html'.format(os.path.join(doc_path, config.values['language']['env'], docname))
+                print(url)
+                print(rawtext)
                 node.replace_self(nodes.reference(rawtext, link_text, refuri=url, **options))
             else:
                 node.replace_self([])
