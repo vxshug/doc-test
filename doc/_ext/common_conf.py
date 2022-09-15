@@ -7,6 +7,7 @@ source_suffix = ['.rst', '.md']
 
 extensions = [
     'recommonmark',
+    'ht_translation'
 ]
 
 templates_path = ['../../../_ext/_templates']
