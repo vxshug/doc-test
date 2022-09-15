@@ -1,5 +1,5 @@
 # Assemble a battery to Capsule sensor
-:ht_translation:`zh_CN:[中文]`
+:ht_translation:`[简体中文]:[English]`
 
 The capsule sensor is a global product, but because of international transportation, storage and other problems, **default is no integrated battery inside the Capsule sensor**.
 

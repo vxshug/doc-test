@@ -2,12 +2,13 @@ import os
 from docutils import nodes
 from sphinx.transforms.post_transforms import SphinxPostTransform
 
+import sphinx.builders
+
 
 class translation_link(nodes.Element):
     """Node for "ht_translation" role."""
 
 
-# Linking to translation is done at the "writing" stage to avoid issues with the info being cached between builders
 def ht_translation(name, rawtext, text, lineno, inliner, options={}, content=[]):
     node = translation_link()
     node['expr'] = (rawtext, text, options)
@@ -15,25 +16,25 @@ def ht_translation(name, rawtext, text, lineno, inliner, options={}, content=[])
 
 
 class TranslationLinkNodeTransform(SphinxPostTransform):
-    # Transform needs to happen early to ensure the new reference node is also transformed
     default_priority = 0
 
     def run(self, **kwargs):
 
-        # Only output relative links if building HTML
         for node in self.document.traverse(translation_link):
             if 'html' in self.app.builder.name:
                 rawtext, text, options = node['expr']
-                (_, link_text) = text.split(':')
+                (zh, en) = text.split(':')
                 env = self.document.settings.env
-                config = self.config
                 docname = env.docname
-                doc_path = env.doc2path(docname, False)
-                # then take off 2/3 more paths for language/release/targetname and build the new URL
-                url = '{}.html'.format(os.path.join(doc_path, config.values['language']['env'], docname))
-                print(url)
-                print(rawtext)
-                node.replace_self(nodes.reference(rawtext, link_text, refuri=url, **options))
+                base_url = self.app.outdir.split('/html', maxsplit=1)[1]
+                if base_url.startswith('/en'):
+                    base_url = base_url.replace('/en', '/zh_CN')
+                    url = '{}.html'.format(os.path.join(base_url, docname))
+                    node.replace_self(nodes.reference(rawtext, zh, refuri=url, **options))
+                else:
+                    base_url = base_url.replace('/zh_CN', '/en')
+                    url = '{}.html'.format(os.path.join(base_url, docname))
+                    node.replace_self(nodes.reference(rawtext, en, refuri=url, **options))
             else:
                 node.replace_self([])
 

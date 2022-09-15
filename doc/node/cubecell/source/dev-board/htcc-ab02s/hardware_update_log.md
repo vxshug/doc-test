@@ -1,5 +1,5 @@
 # CubeCell-GPS-6502 Hardware Update Logs
-:ht_translation:`zh_CN:[中文]`
+:ht_translation:`[简体中文]:[English]`
 
 ## V1.0
 

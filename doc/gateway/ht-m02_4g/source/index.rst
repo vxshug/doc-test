@@ -1,6 +1,6 @@
 HT-M02 Edge LoRa Gateway(4G/LTE)
 ================================
-:ht_translation:`zh_CN:[中文]`
+:ht_translation:`[简体中文]:[English]`
 
 In practice, the working environment of the equipment may not be as good as expected, on the contrary, it may be very bad… For example, in the industrial environment, the site may have tremendous vibration, noise, dust, high temperature, and other issues. In the city environment, sunshine and rain, low temperatures in winter and high temperatures in summer are always unavoidable… When designing the HT-M02 LoRa gateway, has considered and solves all the above problems and design strictly with industrial standards
 

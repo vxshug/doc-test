@@ -1,5 +1,5 @@
 # Sensor Pinout Diagram
-:ht_translation:`zh_CN:[中文]`
+:ht_translation:`[简体中文]:[English]`
 
 ![](img/sensor_pinout_diagram/BH1750.png)
 

@@ -1,5 +1,5 @@
 # "STM32 + LoRa" Preparation & Config Parameters
-:ht_translation:`zh_CN:[中文]`
+:ht_translation:`[简体中文]:[English]`
 
 [LoRa Node 151](https://heltec.org/project/lora-node-151/) is based on [STM32L151CCU6](https://www.st.com/resource/en/datasheet/stm32l151cc.pdf), [Turtle Board](https://heltec.org/project/turtle-board/) is based on [STM32L432KC](https://www.st.com/resource/en/datasheet/stm32l432KC.pdf), Our company is gradually replacing the IDE to [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html), which is the STMicroelectronics official just launched development tools for their own MCUs. Based on Eclipse, include code tracking, code completion, compilation, download, single-step debugging, and integrated with CubdeMX.
 

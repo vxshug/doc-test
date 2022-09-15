@@ -1,5 +1,5 @@
 # HTTC - AM02 Hardware Update Logs
-:ht_translation:`zh_CN:[中文]`
+:ht_translation:`[简体中文]:[English]`
 
 **HTCC-AM02 only have ASR6502 and RF relevant circuit inside. In order to program it, need connect to an external UART-USB bridge. CH340G, CP2102 etc.**
 

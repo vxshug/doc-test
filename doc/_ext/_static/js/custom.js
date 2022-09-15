@@ -6,12 +6,17 @@ var P = [
 
 var prod_obj = {
     gateway: [
-        {text: "M01", value: "m01"},
-        {text: "M02", value: "m02"},
+        {text: "HT-M00", value: "ht-m00"},
+        {text: "HT-M01", value: "ht-m01"},
+        {text: "HT-M01S", value: "ht-m01s"},
+        {text: "HT-M01S_V2", value: "ht-m01s_v2"},
+        {text: "HT-M02_4G", value: "ht-m02_4g"},
+        {text: "HT-M02_POE", value: "ht-m02_poe"},
+        {text: "SX1301module", value: "sx1301module"},
     ],
     node: [
-        {text: "T1", value: "t1"},
-        {text: "T2", value: "t2"},
+        {text: "CUBECELL", value: "cubecell"},
+        {text: "stm32", value: "stm32"},
     ],
 }
 

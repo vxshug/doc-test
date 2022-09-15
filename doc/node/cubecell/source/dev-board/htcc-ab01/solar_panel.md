@@ -1,5 +1,5 @@
 # Connect a Solar Panel to HTCC-AB01
-:ht_translation:`zh_CN:[中文]`
+:ht_translation:`[简体中文]:[English]`
 
 Please refer to the [pinout diagram of HTCC-AB01](https://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_PinoutDiagram.pdf).
 
