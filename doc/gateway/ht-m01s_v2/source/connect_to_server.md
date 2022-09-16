@@ -26,7 +26,7 @@ Fill in the HT-M01S information as shown below and complete the addition.
 - **Frequency Plan** -- Must matach the LoRa band configuration in HT-M01S；
 - **Router** -- Must use the default router allocated by TTN system.
 
-``` Tip:: That four points are the key to success connection with TTN.
+``` {Tip} That four points are the key to success connection with TTN.
 
 ```
 

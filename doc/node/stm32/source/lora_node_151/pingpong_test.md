@@ -39,6 +39,6 @@ Then configure another Lora node 151 node in the same way. After configuration, 
 
 ![](img/pingpong_test/07.png)
 
-```Tip:: The frequency band and the spreading factor need to be configured with the same parameters, otherwise they will not be able to communicate.
+```{Tip} The frequency band and the spreading factor need to be configured with the same parameters, otherwise they will not be able to communicate.
 
 ```

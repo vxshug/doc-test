@@ -7,11 +7,11 @@
 
 This article aims to describe how to upgrade the HT-M01S firmware.
 
-```Tip:: Since the V1.2 version of the firmware has added the HT-M01S to support frequency bands, when V1.1 and below are upgraded to V1.2 and above, the HT-M01S will display incorrect frequency bands in the web configuration interface, but It does not affect normal use. At this time, the frequency band is subject to serial port printing and screen display. For the solution, please refer to "HT-M01S firmware overwrite processing method" below.
+```{Tip} Since the V1.2 version of the firmware has added the HT-M01S to support frequency bands, when V1.1 and below are upgraded to V1.2 and above, the HT-M01S will display incorrect frequency bands in the web configuration interface, but It does not affect normal use. At this time, the frequency band is subject to serial port printing and screen display. For the solution, please refer to "HT-M01S firmware overwrite processing method" below.
 
 ```
 
-```Tip:: If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
+```{Tip} If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
 
 ```
 

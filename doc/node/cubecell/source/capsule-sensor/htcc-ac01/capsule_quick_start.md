@@ -31,7 +31,7 @@ In the example menu `CubeCell - xxxx Sensor Examples`, is the basic test program
 
 ### Transmit Sensor Data Via LoRaWAN protocol
 
-``` Tip:: This part operations must performed with a gateway that supports the standard LoRaWAN protocol.
+``` {Tip} This part operations must performed with a gateway that supports the standard LoRaWAN protocol.
 
 ```
 

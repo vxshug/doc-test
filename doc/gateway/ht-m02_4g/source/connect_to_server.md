@@ -19,7 +19,7 @@ The Gateway EUI also can be read via this command:
 
 `cat lora/packet_forwarder/lora_pkt_fwd/local_conf.json`
 
-```Tip:: If need to change the Gateway EUI for some reason, you can directly modify the file, and the modified EUI will take effect after restarting.
+```{Tip} If need to change the Gateway EUI for some reason, you can directly modify the file, and the modified EUI will take effect after restarting.
 
 ```
 
@@ -40,7 +40,7 @@ Fill in the HT-M02 information as shown below and complete the addition.
 - **Frequency Plan** -- Must matach the LoRa band configuration in HT-M02；
 - **Router** -- Must use the default router allocated by TTN system.
 
-``` Tip:: That four points are the key to success connection with TTN.
+``` {Tip} That four points are the key to success connection with TTN.
 
 ```
 

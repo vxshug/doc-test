@@ -13,7 +13,7 @@ No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters
   - [AppSKey](#appskey) -- AES encryption/decryption cipher application session key, 16 bytes;
   - [DevAddr](#devaddr) -- Device address on the network (big endian), uint32_t;
 
-``` Tip:: There are three methods to configuration LoRaWAN networking parameters, choose one of them.
+``` {Tip} There are three methods to configuration LoRaWAN networking parameters, choose one of them.
 
 ```
 
@@ -21,7 +21,7 @@ No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters
 - [Via AT Command](#via-at-command)
 - [Via CubeCell Configurator](#via-cubecell-configurator)
 
-```Tip:: Parameters such as frequency band need to be modified in "Tools".
+```{Tip} Parameters such as frequency band need to be modified in "Tools".
 
 ```
 
@@ -69,7 +69,7 @@ For example, if send any contents such as `hello`, you will get this reply:
 
 ### DevEui
 
-``` Tip:: We take all zero just for example
+``` {Tip} We take all zero just for example
 
 ```
 

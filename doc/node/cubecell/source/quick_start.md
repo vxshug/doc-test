@@ -11,7 +11,7 @@ CubeCell is based on ASR650x series, this page shown how to install and configur
 - [Use Arduino board manager](#use-arduino-board-manager)
 - [Via Git](#via-git)
 
-``` Tip:: Please confirm whether the USB driver, Git and Arduino IDE has been installed correctly.
+``` {Tip} Please confirm whether the USB driver, Git and Arduino IDE has been installed correctly.
 
 ```
 

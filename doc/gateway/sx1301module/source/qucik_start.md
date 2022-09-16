@@ -51,7 +51,7 @@ sudo cp -f /home/pi/lora/lorasdk/global_conf_EU868.json /home/pi/lora/packet_for
 #the "global_conf_EU868.json" may need change to your need.
 ```
 
-```Tip:: The "global_conf.json" file determines the listening frequency of the gateway, which is the key to a node can successfully communicate with the gateway!
+```{Tip} The "global_conf.json" file determines the listening frequency of the gateway, which is the key to a node can successfully communicate with the gateway!
 
 ```
 

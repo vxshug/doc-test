@@ -16,7 +16,7 @@ The HT-M01 LoRa Gateway supports both USB and SPI mode. The SPI mode can only ru
 
 Before all operation, make sure you have a Raspberry Pi that works and can connect to Wi-Fi. In this document, we used [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
 
-```Tip:: As we tested, Raspberry Pi 2, 3, 3B are also worked.
+```{Tip} As we tested, Raspberry Pi 2, 3, 3B are also worked.
 
 ```
 
@@ -93,7 +93,7 @@ sudo cp -f /home/pi/lora/picolorasdk/global_conf_EU868.json /home/pi/lora/picoGW
 
 Among them, "global_conf_EU868.json" can be replaced with "global_conf_EU433.json", "global_conf_CN470.json", "global_conf_US915.json", etc., respectively corresponding to the corresponding frequency bands.
 
-```Tip:: The "global_conf.json" file determines the listening frequency of the gateway, which is the key to a node can successfully communicate with the gateway!
+```{Tip} The "global_conf.json" file determines the listening frequency of the gateway, which is the key to a node can successfully communicate with the gateway!
 
 ```
 

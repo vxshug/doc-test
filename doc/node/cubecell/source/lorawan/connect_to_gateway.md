@@ -12,7 +12,7 @@ LoRaWAN protocol is the essence of all LoRa applications. In our opinion, the mo
 - The protocol already includes processing mechanisms such as blocking, automatic frequency modulation, and encryption, which can better ensure the smooth flow of nodes and gateway；
 - ADR (Adaptive Data Rate).
 
-``` Tip:: CubeCell LoRaWAN library is migration from LoRaMac-node version v4.3.2
+``` {Tip} CubeCell LoRaWAN library is migration from LoRaMac-node version v4.3.2
 
 ```
 

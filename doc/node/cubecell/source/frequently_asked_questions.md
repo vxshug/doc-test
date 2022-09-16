@@ -32,13 +32,13 @@ Here are two methods access bootloader manually:
 - Capsule Sensor
   - **[Capsule Sensor(HTCC-AC01) + Debug board](https://heltec.org/project/htcc-ac01/)** -- `GPIO 0`
 
-```Tip:: The USER pin of HTCC-AB02, HTCC-AB02S, HTCC-AB02A can use GPIO11 or GPIO16, but the USER pin defaults to GPIO16 in the Dev-Board, and you should be careful not to pull GPIO11 low when entering the bootloader mode.
+```{Tip} The USER pin of HTCC-AB02, HTCC-AB02S, HTCC-AB02A can use GPIO11 or GPIO16, but the USER pin defaults to GPIO16 in the Dev-Board, and you should be careful not to pull GPIO11 low when entering the bootloader mode.
 
 ```
 
 
 
-``` Tip:: If keep USER pin keep LOW all the time (software set LOW or pull down to GND), may cause auto-boot system not working, users can access bootloader mode manually.
+``` {Tip} If keep USER pin keep LOW all the time (software set LOW or pull down to GND), may cause auto-boot system not working, users can access bootloader mode manually.
 
 ```
 
@@ -54,7 +54,7 @@ In order to read other analog signal, user need remove the resistance BR1, then 
 
 ![](img/frequently_asked_questions/03.png)
 
-``` Tip:: the ADC of CubeCell uses internal 1.2V reference voltage
+``` {Tip} the ADC of CubeCell uses internal 1.2V reference voltage
 
 ```
 
@@ -72,7 +72,7 @@ The `Vext` is a power source for external devices. Refer from the schematic diag
 
 - `GPIO 6 --> HIGH --> Vext(3.3V/300mA) OFF`
 
-``` Tip:: The Vext features is very important for some devices without deep sleep mode. When the system need in deep sleep status, we can turn off the Vext by set GPIO 21 to HIGH, then to save energy.
+``` {Tip} The Vext features is very important for some devices without deep sleep mode. When the system need in deep sleep status, we can turn off the Vext by set GPIO 21 to HIGH, then to save energy.
 
 ```
 

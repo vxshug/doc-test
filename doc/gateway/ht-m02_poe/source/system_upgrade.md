@@ -62,7 +62,7 @@ When RX stop blink, system upgrade complete. **Power OFF HT-M02 and remove Micro
 
 ![](img/system_upgrade/05.png)
 
-``` Tip:: Don&#39;t forget remove the Micro TF card, or the system will running from TF card automatically in the next powe ON, and the system will be upgrade again.
+``` {Tip} Don&#39;t forget remove the Micro TF card, or the system will running from TF card automatically in the next powe ON, and the system will be upgrade again.
 
 ```
 

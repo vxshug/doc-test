@@ -6,7 +6,7 @@
 
 This document will briefly introduce the usage of Wireless_Bridge WiFi_LoRa example.
 
-```Tip:: loraWanClass should choose CLASS_C
+```{Tip} loraWanClass should choose CLASS_C
 
 ```
 

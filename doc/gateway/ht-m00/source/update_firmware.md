@@ -7,11 +7,11 @@
 
 This article aims to describe how to upgrade the HT-M00 firmware and the processing method of overwriting the HT-M00 firmware.
 
-```Tip:: Since the HT-M00 firmware version V1.8 has updated the gateway activation code algorithm. Therefore, upgrading from V1.7 and below to V1.8 and above requires reactivating the HT-M00 gateway. Please send the gateway ESP32 chip ID to "support@heltec.cn", we will recalculate the activation code for you and upload it to the server.
+```{Tip} Since the HT-M00 firmware version V1.8 has updated the gateway activation code algorithm. Therefore, upgrading from V1.7 and below to V1.8 and above requires reactivating the HT-M00 gateway. Please send the gateway ESP32 chip ID to "support@heltec.cn", we will recalculate the activation code for you and upload it to the server.
 
 ```
 
-```Tip:: If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
+```{Tip} If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
 
 ```
 
@@ -88,7 +88,7 @@ After the screen displays normally, the gateway is activated successfully.
 
 
 
-```Tip:: For lower version firmware, the firmware can be upgraded according to the "firmware upgrade" method.
+```{Tip} For lower version firmware, the firmware can be upgraded according to the "firmware upgrade" method.
 
 ```
 

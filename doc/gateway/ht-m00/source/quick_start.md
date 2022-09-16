@@ -7,7 +7,7 @@ HT-M00 is a small, low-cost dual-channel LoRa gateway, Use Type-C interface. The
 
 
 
-```Tip:: When using the HT-M00 gateway, using nodes other than the company's CubeCell series, you need to change the node's preamble length to 16 (default is 8). If the preamble length is 8, the minimum SF and the maximum SF need to be set equal, otherwise only the minimum SF will be received. For example, the length of the node's preamble length is 8, and the gateway sets the minimum SF to 7 and the maximum SF to 12, then only SF7 will be received.
+```{Tip} When using the HT-M00 gateway, using nodes other than the company's CubeCell series, you need to change the node's preamble length to 16 (default is 8). If the preamble length is 8, the minimum SF and the maximum SF need to be set equal, otherwise only the minimum SF will be received. For example, the length of the node's preamble length is 8, and the gateway sets the minimum SF to 7 and the maximum SF to 12, then only SF7 will be received.
 
 ```
 
@@ -19,7 +19,7 @@ Modify the preamble length in this function to 16 as shown in the figure above.
 
 ## Configure the gateway
 
-```Tip:: If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
+```{Tip} If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
 
 ```
 
@@ -59,7 +59,7 @@ The HT-M00 gateway has already downloaded the relevant program when it leaves th
 
 ![](img/quick_start/04.png)
 
-```Tip:: After the gateway is connected to the network through WiFi and works normally, you can directly enter the configuration interface through the “Local IP” on the display (the login device must be in the same LAN as the gateway).
+```{Tip} After the gateway is connected to the network through WiFi and works normally, you can directly enter the configuration interface through the “Local IP” on the display (the login device must be in the same LAN as the gateway).
 
 ```
 

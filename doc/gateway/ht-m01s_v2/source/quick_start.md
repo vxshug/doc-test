@@ -10,7 +10,7 @@ HT-M01S (Rev. 2.0) is positioned as a low-cost standard gateway for indoor use. 
 
 ## Configure the gateway
 
-```Tip:: If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
+```{Tip} If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
 
 ```
 
@@ -50,7 +50,7 @@ The HT-M01S (Rev. 2.0) gateway has already downloaded the relevant program when 
 - Configure the HT-M01S (Rev. 2.0) gateway information on the page shown in the figure above, such as network mode, server address, uplink port, downlink port, heartbeat period, regional frequency band, gateway channel, time zone, and click "Submit" after the configuration is complete. If "NET MODE" selects "WiFi", you need to configure the corresponding WiFi information, if "NET MODE" selects "Ethernet", the network information will be directly obtained through Ethernet. The user can modify the web login password by himself. At the same time, when the gateway has firmware that needs to be updated, you can download the corresponding firmware and click "Firmware Update" to update accordingly.
 - The gateway will restart after the configuration is completed and submitted. When the gateway starts, it will automatically connect to the configured WiFi or connect to the Ethernet. If the connection fails, it will restart again until the connection is successful.
 
-```Tip:: After the gateway is connected to the network through WiFi or Ethernet and works normally, you can directly enter the configuration interface through the "Local IP" on the display (the login device must be in the same LAN as the gateway).
+```{Tip} After the gateway is connected to the network through WiFi or Ethernet and works normally, you can directly enter the configuration interface through the "Local IP" on the display (the login device must be in the same LAN as the gateway).
 
 ```
 
