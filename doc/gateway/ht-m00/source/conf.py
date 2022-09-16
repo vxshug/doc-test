@@ -11,6 +11,8 @@ copyright = '2022, shug'
 author = 'shug'
 release = 'latest'
 
+conf_py_path = '/doc/gateway/ht-m00/source/'
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 

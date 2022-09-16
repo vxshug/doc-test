@@ -7,6 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'cubecell'
+conf_py_path = '/doc/node/cubecell/source/'
+
 copyright = '2022, shug'
 author = 'shug'
 release = 'latest'

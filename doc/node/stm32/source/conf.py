@@ -7,6 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'stm32'
+conf_py_path = '/doc/node/stm32/source/'
+
 copyright = '2022, shug'
 author = 'shug'
 release = 'latest'

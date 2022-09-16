@@ -7,6 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'esp8266_arduino'
+conf_py_path = '/doc/node/esp8266_arduino/source/'
+
 copyright = '2022, shug'
 author = 'shug'
 release = 'latest'

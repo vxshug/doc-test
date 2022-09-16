@@ -25,6 +25,17 @@ html_static_path = ['../../../_ext/_static']
 html_js_files = [
     'js/custom.js',
 ]
+html_css_files = [
+    'css/custom.css',
+]
+
+html_context = {
+  'display_github': True,
+  'github_user': 'vxshug',
+  'github_repo': 'doc-test',
+  'github_version': 'main',
+  'conf_py_path': conf_py_path,
+}
 
 def setup(app):
     app.add_config_value('recommonmark_config', {

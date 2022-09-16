@@ -7,6 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'ht-m01s_v2'
+conf_py_path = '/doc/gateway/ht-m01s_v2/source/'
+
 copyright = '2022, shug'
 author = 'shug'
 release = 'latest'
