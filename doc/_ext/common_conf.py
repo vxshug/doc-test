@@ -34,7 +34,6 @@ html_context = {
   'github_user': 'vxshug',
   'github_repo': 'doc-test',
   'github_version': 'main',
-  'conf_py_path': conf_py_path,
 }
 
 def setup(app):
@@ -45,3 +44,6 @@ def setup(app):
         'enable_auto_doc_ref': False,
     }, True)
     app.add_transform(AutoStructify)
+
+def update_path(path):
+    html_context['conf_py_path'] = path

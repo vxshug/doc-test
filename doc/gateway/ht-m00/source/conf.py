@@ -7,11 +7,12 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'ht-m00'
+conf_py_path = '/doc/gateway/ht-m00/source/'
+
 copyright = '2022, shug'
 author = 'shug'
 release = 'latest'
 
-conf_py_path = '/doc/gateway/ht-m00/source/'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -21,3 +22,4 @@ import sys
 sys.path.insert(0, os.path.abspath('../../../_ext/'))
 from common_conf import *
 
+update_path(conf_py_path)
