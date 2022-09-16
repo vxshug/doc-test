@@ -1,5 +1,5 @@
 # LoRa Node 151 Pingpong test
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 
 ## Prepare
 

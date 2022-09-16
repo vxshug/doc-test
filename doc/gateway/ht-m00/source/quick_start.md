@@ -1,5 +1,5 @@
 # HT-M00 Dual Channel LoRa Gateway Quick Start
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 
 ## Summary
 

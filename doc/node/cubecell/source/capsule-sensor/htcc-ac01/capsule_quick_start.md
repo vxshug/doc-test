@@ -1,5 +1,5 @@
 # Capsule Sensor Quick Start
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 ## Summary
 
 **Pay attention to the following issues while using a capsule sensor**

@@ -1,6 +1,6 @@
 # HT-M00 Firmware Upgrade
 
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 
 
 ## Summary

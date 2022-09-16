@@ -1,5 +1,5 @@
 # Config LoRaWAN Networking Parameters for CubeCell (Dev EUI, App Key, etc.)
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 ## Summary
 
 No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters are must needed. And ensure that it is consistent with the relevant settings on the server.

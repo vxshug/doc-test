@@ -1,5 +1,5 @@
 # WiFi LoRa 32 Hardware Update Logs
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/wifi_lora_32/hardware_update_log.html)
+{ht_translation}`[简体中文]:[English]`
 ## V1
 
 - First release

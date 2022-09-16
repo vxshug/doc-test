@@ -1,6 +1,6 @@
 Wireless Stick Lite
 ===================
-`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/wireless_stick_lite/index.html>`_
+:ht_translation:`[简体中文]:[English]`
 
 Wireless Stick Lite relevant documents.
 

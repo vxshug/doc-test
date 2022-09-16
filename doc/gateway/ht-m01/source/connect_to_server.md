@@ -1,5 +1,5 @@
 # Connect HT-M01 to a LoRa Server
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 ## Summary
 
 This article aims to describe how to connect [HT-M01 Gateway](https://heltec.org/project/ht-m01) to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.ff

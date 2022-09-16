@@ -1,5 +1,5 @@
 # Connect "STM32 + LoRa" to LoRaWAN Server
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 
 In this document, all operations and tests must be performed with a standard [LoRaWAN Gateway](https://heltec.org/proudct_center/lora/lora-gateway/), and at least have 8 channels!
 

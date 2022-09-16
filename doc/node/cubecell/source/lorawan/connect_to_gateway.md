@@ -1,5 +1,5 @@
 # Connect CubeCell to LoRaWAN Server
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 
 In this document, all operations and tests must be performed with a standard [LoRaWAN Gateway](https://heltec.org/proudct_center/lora/lora-gateway/), In the CubeCell's LoRaWAN library, for each working band, we are strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf).
 

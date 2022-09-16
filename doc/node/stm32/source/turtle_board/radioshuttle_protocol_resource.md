@@ -1,5 +1,5 @@
 # RadioShuttle Protocol Resource
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 
 ## The RadioShuttle Wireless Protocol
 

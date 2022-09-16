@@ -1,5 +1,5 @@
 # HT-M02 System Upgrade
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 ## Summary
 
 [HT-M02](https://heltec.org/project/ht-m02/) have two method to upgrade the system.

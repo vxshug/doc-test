@@ -1,5 +1,5 @@
 # Download Firmware
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 ## Via DFU Mode
 
 STM32L432KC had already included DFU Bootloader, it means just need a Micro USB cable, users can download .elf/.bin files into the board.

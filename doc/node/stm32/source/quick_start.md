@@ -1,5 +1,5 @@
 # Heltec STM32+LoRa Series Quick Start
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 
 We suggest you confirm whether the  `STM32CubeIDE` and `STM32CubeProgrammer` has installed first. If not install, please install [STM32CubeIDE](https://www.st.com/zh/development-tools/stm32cubeide.html#get-software) and [STM32CubeProgrammer](https://www.st.com/zh/development-tools/stm32cubeprog.html) .
 

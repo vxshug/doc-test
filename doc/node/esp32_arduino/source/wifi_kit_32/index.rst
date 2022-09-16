@@ -1,6 +1,6 @@
 WiFi kit 32
 ===========
-`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/esp32+arduino/wifi_kit_32/index.html>`_
+:ht_translation:`[简体中文]:[English]`
 
 WiFi Kit 32 relevant documents.
 

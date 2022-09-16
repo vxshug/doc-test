@@ -1,6 +1,6 @@
 # Wireless Bridge WiFi_BLE Example User Manual
 
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/wireless_bridge/wifi_ble_user_manual.html)
+{ht_translation}`[简体中文]:[English]`
 
 ## Summary
 

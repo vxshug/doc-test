@@ -1,6 +1,6 @@
 # HT-M01S (Rev. 2.0) Firmware Upgrade
 
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 
 
 ## Summary

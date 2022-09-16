@@ -1,6 +1,6 @@
 HT-M01S (Rev. 2.0)
 ==================
-`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01s/index.html>`_
+:ht_translation:`[简体中文]:[English]`
 
 HT-M01S (Rev. 2.0) is positioned as a low-cost standard gateway for indoor use. LoRa part based on the SX1303 + 1250 structure,  we innovatively use ESP32 as the main control chip, and completely transplant the hardware driver, data forwarding and message queue of SX1303 to the ESP32 platform. There is no need to run the Linux operating system separately. It is simpler and more convenient to use.
 HT-M01S (Rev. 2.0) has basic mechanical protection and dustproof structure, but does not have waterproof performance. It can be connected to the cloud server via Wi-Fi or Ethernet, can be powered by Type-C_5V, and has a 1.8-inch TFT display under the tempered glass panel. It is very suitable for deployment in factories, warehouses, homes and other indoor environments that can provide power and network.

@@ -1,6 +1,6 @@
 LoRaWAN
 =======
-`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/lorawan/index.html>`_
+:ht_translation:`[简体中文]:[English]`
 
 CubeCell series LoRaWAN protocol usage and configuration.
 

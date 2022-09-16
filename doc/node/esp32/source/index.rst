@@ -1,6 +1,6 @@
 Contents
 ========
-`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/index.html>`_
+:ht_translation:`[简体中文]:[English]`
 
 This document branch is for `Heltec ESP32 + LoRa Node series <https://heltec.org/proudct_center/lora/lora-node/>`_,
 

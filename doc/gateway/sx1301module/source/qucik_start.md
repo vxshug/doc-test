@@ -1,6 +1,6 @@
 # SX130x LoRa Gateway Module Quick Start
 
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 
 ## Summary
 

@@ -1,6 +1,6 @@
 LoRaWAN
 =======
-`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/lorawan/index.html>`_
+:ht_translation:`[简体中文]:[English]`
 
 This article is intended to describe how to use the `Heltec ESP32 LoRaWAN library <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_.
 

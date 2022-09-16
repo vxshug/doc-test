@@ -1,5 +1,5 @@
 # CubeCell-1/2AA Dev-Board Hardware Update Logs
-:ht_translation:`[简体中文]:[English]`
+{ht_translation}`[简体中文]:[English]`
 
 ## V1
 

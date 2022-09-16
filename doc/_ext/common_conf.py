@@ -6,7 +6,7 @@ source_suffix = ['.rst', '.md']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'recommonmark',
+    'myst_parser',
     'ht_translation'
 ]
 
@@ -35,15 +35,6 @@ html_context = {
   'github_repo': 'doc-test',
   'github_version': 'main',
 }
-
-def setup(app):
-    app.add_config_value('recommonmark_config', {
-        'enable_math': True,
-        'enable_inline_math': True,
-        'enable_eval_rst': True,
-        'enable_auto_doc_ref': False,
-    }, True)
-    app.add_transform(AutoStructify)
 
 def update_path(path):
     html_context['conf_py_path'] = path
