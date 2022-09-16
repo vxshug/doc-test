@@ -5,10 +5,10 @@
 The HT-M01 LoRa Gateway supports both USB and SPI mode. The SPI mode can only running with Linux systems (Raspberry PI), the USB mode can be used on Linux and Windows<sup>®</sup>. generally speaking, to make HT-M01 running, just chose one of the following three methods:
 
 - **Linux (Raspberry PI)**
-  - [SPI mode](#spi-mode)
-  - [USB mode](#usb-mode)
+  - [SPI mode](spi-mode)
+  - [USB mode](usb-mode)
 - **Windows<sup>®</sup>**
-  - [USB mode for Windows<sup>®</sup>](#use-ht-m01-with-windows-sup-sup)
+  - [USB mode for Windows<sup>®</sup>](use-ht-m01-with-windows-sup-sup)
 
 
 
@@ -22,8 +22,8 @@ Before all operation, make sure you have a Raspberry Pi that works and can conne
 
 **[Raspberry Pi Configuration]()**
 
-### SPI mode
 (spi-mode)=
+### SPI mode
 
 Have a [PRI to HT-M01 converter](https://heltec.org/product/m01-converter/) will make your operation more easy.
 
@@ -68,8 +68,8 @@ sudo cp -f /home/pi/lora/lorasdk/global_conf_EU868.json /home/pi/lora/packet_for
 
 Among them, "global_conf_EU868.json" can be replaced with "global_conf_EU433.json", "global_conf_CN470.json", "global_conf_US915.json", etc., respectively corresponding to the corresponding frequency bands.
 
-### USB mode
 (usb-mode)=
+### USB mode
 
 Before proceeding with the following operations, use a high-quality Micro USB cable to connect the HT-M01 Gateway to the Raspberry Pi, otherwise it will cause a lot of problems! Enter the following commands:
 
@@ -111,6 +111,7 @@ Run `sudo systemctl status lrgateway` in Raspberry Pi, if all goes well, the ser
 
 &nbsp;
 
+(use-ht-m01-with-windows-sup-sup)=
 ## Use HT-M01 with Windows<sup>®</sup>
 
 ### USB mode
