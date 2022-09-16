@@ -9,7 +9,7 @@
 
 ## Via Micro TF card
 
-``` Warning:: The power source for HT-M02 cannot be cut off during the upgrade process, or it may cause permanent damage to the HT-M02 gateway.
+``` {Warning} The power source for HT-M02 cannot be cut off during the upgrade process, or it may cause permanent damage to the HT-M02 gateway.
 
 ```
 

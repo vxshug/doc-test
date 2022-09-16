@@ -19,7 +19,7 @@ STM32L432KC had already included DFU Bootloader, it means just need a Micro USB 
 
   ![](img/download_firmware/04.png)
 
-  ```Warning:: For Turtle Board, if you use "STM32CubeProgrammer" to download firmware, it may damage the bootloader of the Turtle Board, so we recommend using "RadioShuttle STM32 Utility".
+  ```{Warning} For Turtle Board, if you use "STM32CubeProgrammer" to download firmware, it may damage the bootloader of the Turtle Board, so we recommend using "RadioShuttle STM32 Utility".
   
   ```
 

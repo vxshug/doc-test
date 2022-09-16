@@ -66,7 +66,7 @@ There are some options in the Arduino Tools menu:
   - Generate By ChipID -- Generated according to the Chip ID of the chip. Selecting this option will override the setting in the DevEui array in the code.
 
 
-``` Note:: Print too much messages may cause the system unstable.
+``` {Note} Print too much messages may cause the system unstable.
 
 ```
 

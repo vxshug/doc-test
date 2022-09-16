@@ -7,7 +7,7 @@ The `VS` pin is the solar panel input, any 5.5~7V solar panel can be connected t
 
 ![](img/solar_panel/03.png)
 
-``` Note:: Solar panels can&#39;t be a power source for the whole system, so it must work with a chargeable Li-Po battery. The CubeCell HTCC-AB01 Dev-Board already integrated a battery and solar panel manage system on-board.
+``` {Note} Solar panels can&#39;t be a power source for the whole system, so it must work with a chargeable Li-Po battery. The CubeCell HTCC-AB01 Dev-Board already integrated a battery and solar panel manage system on-board.
 
 ```
 

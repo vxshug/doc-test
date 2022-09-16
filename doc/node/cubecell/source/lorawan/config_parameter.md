@@ -39,7 +39,7 @@ Change the code and Compile/Upload again.
 
 &nbsp;
 
-``` Note:: The follows two methods need AT-Command enable.
+``` {Note} The follows two methods need AT-Command enable.
 
 ```
 
@@ -57,7 +57,7 @@ In order to use AT command, need enable AT command in the "Tools" menu before up
 - DTR, RTS requirement: **None**
 - Ending characters: **None**
 
-``` Note:: Make sure there is NO ending characters or new line in you serial monitor config!
+``` {Note} Make sure there is NO ending characters or new line in you serial monitor config!
 
 ```
 

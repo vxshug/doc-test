@@ -58,7 +58,7 @@ In order to read other analog signal, user need remove the resistance BR1, then 
 
 ```
 
-``` Note:: ADC input voltage can NOT higher than 2.4V.
+``` {Note} ADC input voltage can NOT higher than 2.4V.
 
 ```
 

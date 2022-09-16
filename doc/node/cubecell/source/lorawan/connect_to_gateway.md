@@ -37,7 +37,7 @@ Don't forget [config the parameters in "Tools" menu](https://heltec-automation-d
 
 ![](img/connect_to_server/03.png)
 
-``` Note:: the tools menu must matching with the configration in LoRa server. For example, if CubeCell use OTAA, the LoRa server must enable OTAA for relevant device.
+``` {Note} the tools menu must matching with the configration in LoRa server. For example, if CubeCell use OTAA, the LoRa server must enable OTAA for relevant device.
 
 ```
 
