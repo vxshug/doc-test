@@ -51,10 +51,12 @@ Fix parameters in `global_conf.json`:
 
 
   ```json
+  {
   “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
   “server_address”: “router.cn.thethings.network”, /*The router addresses need matach your region*/
   “serv_port_up”: 1700,
   “serv_port_down”: 1700,
+  }
   ```
 
 `ctrl + O` to save and `ctrl + X` to exit, and restart the service in Raspberry Pi:
@@ -137,10 +139,12 @@ Fix parameters in `global_conf.json`:
 
 
   ```json
+  {
   “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
   “server_address”: “router.eu.thethings.network”, /*The router addresses need matach your region*/
   “serv_port_up”: 1700,
   “serv_port_down”: 1700,
+  }
   ```
 
 `ctrl + O` to save and `ctrl + X` to exit, and restart the service in Raspberry Pi:

@@ -4,9 +4,10 @@
 
 [HT-M02](https://heltec.org/project/ht-m02/) have two method to upgrade the system.
 
-- [Via Micro TF Card](#via-micro-tf-card);
+- [Via Micro TF Card](via-micro-tf-card);
 - Online upgrade.
 
+(via-micro-tf-card)=
 ## Via Micro TF card
 
 ``` {Warning} The power source for HT-M02 cannot be cut off during the upgrade process, or it may cause permanent damage to the HT-M02 gateway.

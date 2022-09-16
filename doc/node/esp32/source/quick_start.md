@@ -5,13 +5,14 @@ Before all operation, please confirm whether the `USB driver`, `Git` and `Arduin
 
 **There are two methods to install the development framework, choose one of they:**
 
-- [Via Arduino Board Manager](#via-arduino-board-manager)
-- [Via Git](#via-git)
+- [Via Arduino Board Manager](via-arduino-board-manager)
+- [Via Git](via-git)
 
-- [Via Local File](#via-local-file)
+- [Via Local File](via-local-file)
 
 &nbsp;
 
+(via-arduino-board-manager)=
 ## Via Arduino Board Manager
 
 ### Step1. Download Arduino-ESP32 Support
@@ -49,6 +50,7 @@ The source code of `Heltec ESP32` library available here: [https://github.com/He
 
 &nbsp;
 
+(via-git)=
 ## Via Git
 
 - For Windows: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/windows.md`
@@ -60,6 +62,7 @@ The source code of `Heltec ESP32` library available here: [https://github.com/He
 
 &nbsp;
 
+(via-local-file)=
 ## Via Local File
 
 Download the development environment. [https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip](https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip)

@@ -5,21 +5,21 @@
 No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters are must needed. And ensure that it is consistent with the relevant settings on the server.
 
 - **The following parameters are essential for OTAA mode:**
-  - [DevEui](#deveui) -- Mote device IEEE EUI (big endian), 8 bytes;
-  - [AppEui](#appeui) -- Application IEEE EUI (big endian), 8 bytes;
-  - [AppKey](#appkey) -- AES encryption/decryption cipher application key, 16 bytes;
+  - [DevEui](deveui) -- Mote device IEEE EUI (big endian), 8 bytes;
+  - [AppEui](appeui) -- Application IEEE EUI (big endian), 8 bytes;
+  - [AppKey](appkey) -- AES encryption/decryption cipher application key, 16 bytes;
 - **The following parameters are essential for ABP mode:**
-  - [NwkSKey](#nwkskey) -- AES encryption/decryption cipher network session key, 16 bytes;
-  - [AppSKey](#appskey) -- AES encryption/decryption cipher application session key, 16 bytes;
-  - [DevAddr](#devaddr) -- Device address on the network (big endian), uint32_t;
+  - [NwkSKey](nwkskey) -- AES encryption/decryption cipher network session key, 16 bytes;
+  - [AppSKey](appskey) -- AES encryption/decryption cipher application session key, 16 bytes;
+  - [DevAddr](devaddr) -- Device address on the network (big endian), uint32_t;
 
 ``` {Tip} There are three methods to configuration LoRaWAN networking parameters, choose one of them.
 
 ```
 
-- [Via Modify Code](#via-modify-code)
-- [Via AT Command](#via-at-command)
-- [Via CubeCell Configurator](#via-cubecell-configurator)
+- [Via Modify Code](via-modify-code)
+- [Via AT Command](via-at-command)
+- [Via CubeCell Configurator](via-cubecell-configurator)
 
 ```{Tip} Parameters such as frequency band need to be modified in "Tools".
 
@@ -29,6 +29,7 @@ No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters
 
 &nbsp;
 
+(via-modify-code)=
 ## Via Modify Code
 
 The relevant parameters of the LoRaWAN network are in the corresponding `.ino` file:
@@ -43,6 +44,7 @@ Change the code and Compile/Upload again.
 
 ```
 
+(via-at-command)=
 ## Via AT Command
 
 In order to use AT command, need enable AT command in the "Tools" menu before upload.
@@ -67,6 +69,7 @@ For example, if send any contents such as `hello`, you will get this reply:
 
 `ASR is Waked,LowPower Mode Stopped`
 
+(deveui)=
 ### DevEui
 
 ``` {Tip} We take all zero just for example
@@ -84,6 +87,7 @@ Command running success will print feedback:
 +DevEui=0000000000000000(For OTAA Mode)
 ```
 
+(appeui)=
 ### AppEui
 
 Config AppEui to "0000000000000000", send following command via serial port:
@@ -97,6 +101,7 @@ Command running success will print feedback:
 +AppEui=0000000000000000(For OTAA Mode)
 ```
 
+(appkey)=
 ### AppKey
 
 Config AppKey to "00000000000000000000000000000000", send following command via serial port:
@@ -110,6 +115,7 @@ Command running success will print feedback:
 +AppEui=00000000000000000000000000000000(For OTAA Mode)
 ```
 
+(nwkskey)=
 ### NwkSKey
 
 Config NwkSKey to "00000000000000000000000000000000", send following command via serial port:
@@ -123,6 +129,7 @@ Command running success will print feedback:
 +NwkSKey=00000000000000000000000000000000(For ABP Mode)
 ```
 
+(appskey)=
 ### AppSKey
 
 Config AppSKey to "00000000000000000000000000000000", send following command via serial port:
@@ -136,6 +143,7 @@ Command running success will print feedback:
 +AppSKey=00000000000000000000000000000000(For ABP Mode)
 ```
 
+(devaddr)=
 ### DevAddr
 
 Config DevAddr to "00000000", send following command via serial port:
@@ -166,7 +174,7 @@ LoRaWAN parameters need reset to active, CubeCell can reset via three methods:
 Looking for more AT commands? Please refer to **[CubeCell AT Command list](https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.4.pdf)**.
 
 
-
+(via-cubecell-configurator)=
 ## Via CubeCell Configurator
 
 Special thanks [WASN](https://github.com/wasn-eu) made a configurator for CubeCell, now it's only have Windows<sup>®</sup> support.

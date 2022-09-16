@@ -5,11 +5,12 @@ We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has ins
 
 **There are two methods to install the development framework, choose on of they:**
 
-- [Via Arduino Board Manager](#via-arduino-board-manager)
-- [Via Git](#via-git)
+- [Via Arduino Board Manager](via-arduino-board-manager)
+- [Via Git](via-git)
 
 &nbsp;
 
+(via-arduino-board-manager)=
 ## Via Arduino Board Manager
 
 ### Step1. Download Arduino-ESP8266 Support
@@ -45,6 +46,7 @@ The source code of `Heltec ESP8266` library available here:[https://github.com/H
 
 &nbsp;
 
+(via-git)=
 ## Via Git
 
 - For Windows: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/windows.md`
