@@ -1,7 +1,8 @@
 # "ESP32 + LoRa" Preparation & Config Parameters
 {ht_translation}`[简体中文]:[English]`
+
 ## Preparation
-----------
+
 - Arduino IDE.  How to install please click [here](https://docs.heltec.cn/#/en/user_manual/how_to_install_git_and_arduino).
 - This library must work with [Heltec WiFi_Kit_series Arduino development framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series). Installation manual  please refer to [here](https://docs.heltec.cn/#/en/user_manual/how_to_install_esp32_Arduino).
 
@@ -12,7 +13,7 @@
 - In this example, we use [HT-M01 Gateway](https://heltec.org/project/ht-m01/) and drive it through Windows<sup>®</sup> via USB, and use [WiFi LoRa 32 (V2)](https://heltec.org/project/wifi-lora-32/) Board to quickly connect to TTN.
 
 ### Installing Library
-----------
+
 We provided a ESP32 LoRaWAN library, which migration from the [LoRaMac-node](https://github.com/Lora-net/LoRaMac-node) library:
 
 [https://github.com/HelTecAutomation/ESP32_LoRaWAN](https://github.com/HelTecAutomation/ESP32_LoRaWAN)
