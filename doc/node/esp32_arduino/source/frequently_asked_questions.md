@@ -60,7 +60,7 @@ The `Vext` is a power source for external devices. Refer from the schematic diag
 
 - `GPIO 21 --> HIGH --> Vext(3.3V/250mA) OFF`
 
-``` Tips:: The Vext features is very important for some devices without deep sleep mode. When the system need in deep sleep status, we can turn off the Vext by set GPIO 21 to HIGH, then to save energy.
+``` {Tip} The Vext features is very important for some devices without deep sleep mode. When the system need in deep sleep status, we can turn off the Vext by set GPIO 21 to HIGH, then to save energy.
 
 ```
 
