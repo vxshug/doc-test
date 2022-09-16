@@ -27,6 +27,7 @@ function tt() {
     let e = document.getElementById("product-select");
     let t = $("#type-select").val();
     e.options.length = 1
+    e.options[0].selected = true
     for (let r = 0; r < prod_obj[t].length; r++) {
         let m = prod_obj[t][r];
         var o = new Option(m.text,m.value);
@@ -36,6 +37,7 @@ function tt() {
 
  function ht() {
     var n = $("#product-select").val();
+    if (n === 'none') return
     window.location.href = function(e) {
         let t = $("#type-select").val();
         let href = window.location.href.split('/')
@@ -52,9 +54,9 @@ var e = document.getElementById("product-select");
 var th = window.location.href.split('/')[4]
 var eh = window.location.href.split('/')[5]
 t.hidden = !1;
-t.onclick = tt;
+t.onchange = tt;
 e.hidden = !1;
-e.onclick = ht;
+e.onchange = ht;
 for (let r = 0; r < P.length; r++) {
     let n = P[r];
     var o = new Option(n.text,n.value);
