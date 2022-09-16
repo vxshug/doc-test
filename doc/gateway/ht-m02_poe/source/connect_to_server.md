@@ -43,9 +43,9 @@ sudo nano lora/packet_forwarder/lora_pkt_fwd/global_conf.json
 At the end of this file, make suitable changes:
 
 ```json
-  “server_address”: “router.cn.thethings.network”, /*The server IP address or domain*/
-  “serv_port_up”: 1700,
-  “serv_port_down”: 1700,
+  "server_address": "router.cn.thethings.network", /*The server IP address or domain*/
+  "serv_port_up": 1700,
+  "serv_port_down": 1700,
 ```
 
 ![](img/connect_to_server/01.png)
@@ -112,9 +112,9 @@ sudo nano lora/packet_forwarder/lora_pkt_fwd/global_conf.json
 At the end of this file, make suitable changes:
 
 ```json
-  “server_address”: “router.eu.thethings.network”, /*The server IP address or domain*/
-  “serv_port_up”: 1700,
-  “serv_port_down”: 1700,
+  "server_address": "router.eu.thethings.network", /*The server IP address or domain*/
+  "serv_port_up": 1700,
+  "serv_port_down": 1700,
 ```
 
 ![](img/connect_to_server/01.png)
