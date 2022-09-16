@@ -18,10 +18,13 @@ conf_py_path = '/doc/main/'
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../../_ext/'))
+sys.path.insert(0, os.path.abspath('../_ext/'))
 from common_conf import *
 
 update_path(conf_py_path)
+
+templates_path = ['../_ext/_templates', '_templates']
+html_static_path = ['../_ext/_static', '_static']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
