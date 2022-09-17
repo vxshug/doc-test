@@ -56,7 +56,7 @@ $(function () {
 let doc= document.getElementById('general-doc')
 if (doc) {
   $.get(ht_general, function(data) {
-  l.innerHTML = data['content'];
+  doc.innerHTML = data['content'];
 })
 }
 var t = document.getElementById("type-select");
