@@ -25,6 +25,7 @@ var prod_obj = {
 
 function tt() {
     let e = document.getElementById("product-select");
+    if (n === '') return
     let t = $("#type-select").val();
     e.options.length = 1
     e.options[0].selected = true
@@ -48,7 +49,16 @@ function tt() {
     }(n)
 }
 
+ht_general='https://readthedocs.org/api/v3/embed/?url=https://doc-test-vx.readthedocs.io/general/index.html'
+
 $(function () {
+
+let doc= document.getElementById('general-doc')
+if (doc) {
+  $.get(ht_general, function(data) {
+  l.innerHTML = data['content'];
+})
+}
 var t = document.getElementById("type-select");
 var e = document.getElementById("product-select");
 var th = window.location.href.split('/')[4]

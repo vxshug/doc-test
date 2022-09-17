@@ -19,3 +19,4 @@ HT-M01 is a Pico cell gateway. When we designing it, we wanted to provide users 
     Quick Start <quick_start>
     Coneect to LoRa server <connect_to_server>
     Add More Region Support on PicoGW UI <add_region_on_picogw_ui>
+    General Docs <general>
