@@ -26,7 +26,7 @@ This is the list of LoRaWAN frequency plans. These frequency plans are based on 
   - Uplink channels 1-9 (RX1)
   - **869.525** - SF9BW125 (RX2)
 
-```Tip:: Note that The Things Network uses the non-standard SF9BW125 data rate for RX2 in Europe. If your devices use OTAA, this will be configured automatically when they join. If your devices use ABP, you’ll need to program this RX2 data rate into the devices.
+```{Tip} Note that The Things Network uses the non-standard SF9BW125 data rate for RX2 in Europe. If your devices use OTAA, this will be configured automatically when they join. If your devices use ABP, you’ll need to program this RX2 data rate into the devices.
 
 ```
 
@@ -123,7 +123,7 @@ Used in China
 8. **927.5** - SF7BW500 to SF12BW500 (RX1)
 9. **923.3** - SF12BW500 (RX2)
 
-```Tip:: Note that The Things Network uses 2nd Sub-Band only (channels 8 to 15 and 65). You’ll need to program the specific channels into the devices.
+```{Tip} Note that The Things Network uses 2nd Sub-Band only (channels 8 to 15 and 65). You’ll need to program the specific channels into the devices.
 
 ```
 

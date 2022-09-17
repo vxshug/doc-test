@@ -17,7 +17,7 @@ Input the Chip ID in [http://resource.heltec.cn/search](http://resource.heltec.c
 
 There with show some basic informations about this board, click `Relevant Resource`.
 
-``` Tip:: The license in this page is also useful, such as ESP32 + LoRa series, the ESP32_LoRaWAN library need this license to active.
+``` {Tip} The license in this page is also useful, such as ESP32 + LoRa series, the ESP32_LoRaWAN library need this license to active.
 
 ```
 
@@ -37,13 +37,14 @@ Now, will be bring to the products' download page. the files in the limited fold
 
 The products' Chip ID is relative to the onboard MCU, each MCU have an unique ID.
 
-- [ESP32 Core](#esp32-lora-series)
-- [STM32 Core](#stm32-series)
+- [ESP32 Core](esp32-lora-series)
+- [STM32 Core](stm32-series)
   - LoRa Node 030
-  - [LoRa Node 151](#lora-node-151)
-  - [Turtle Board](#turtle-board)
-- [CubeCell Series (ASR650x Core)](#cubecell-series)
+  - [LoRa Node 151](lora-node-151)
+  - [Turtle Board](turtle-board)
+- [CubeCell Series (ASR650x Core)](cubecell-series)
 
+(esp32-lora-series)=
 ### ESP32 (+ LoRa) Series
 
 Make sure you have already installed the [Heltec ESP32 development framework](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/quick_start.html).
@@ -54,10 +55,12 @@ After uploading this sample code, the Chip ID will be printed via serial port:
 
 ![](img/view_limited_technical_data/02.png)
 
+(stm32-series)=
 ### STM32 series
 
 This [Heltec STM32+LoRa Series Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/quick_start.html) maybe helpful for the following operations.
 
+(lora-node-151)=
 #### LoRa Node 151
 
 [How to Download Firmware to LoRa Node 151](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html)
@@ -72,6 +75,7 @@ Then the Chip ID will be printed via the virtual serial port (USB CDC).
 
 &nbsp;
 
+(turtle-board)=
 #### Turtle Board
 
 [How to Download Firmware to Turtle Board](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html)
@@ -82,6 +86,7 @@ Then the Chip ID will be printed via the virtual serial port (USB CDC).
 
 &nbsp;
 
+(cubecell-series)=
 #### CubeCell Series
 
 Almost all resources for CubeCell are open source. Anyway, users can query the Chip ID via AT command:

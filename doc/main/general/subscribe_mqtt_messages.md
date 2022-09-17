@@ -7,14 +7,15 @@ In the LoRaWAN application framework, [MQTT](https://mqtt.org/) is wildly used. 
 
 The purpose of this article is to provide some examples of how to get MQTT messages from a cloud servers. Hope these examples can provide some reference or make sense to your application.
 
-```Tip:: The four keys to success MQTT subscription: 1. Host address, 2. Host port; 3. user name/pass word, 4. MQTT Topic.
+```{Tip} The four keys to success MQTT subscription: 1. Host address, 2. Host port; 3. user name/pass word, 4. MQTT Topic.
 
 ```
 
-- [Via Python](#via-python)
-- [Via third party application (MQTT.fx)](#via-third-party-application-mqtt-fx)
+- [Via Python](via-python)
+- [Via third party application (MQTT.fx)](via-third-party-application-mqtt-fx)
 
 ----------
+(via-python)=
 ## Via Python
 
 Here is a simple python3 example that can be used to subscribe to MQTT messages from the server.
@@ -41,6 +42,7 @@ If the example does not run correctly, may be missing related components, instal
 
 `sudo pip3 install paho-mqtt python-etcd`
 
+(via-third-party-application-mqtt-fx)=
 ## Via third party application (MQTT.fx)
 
 There are many useful MQTT subscription and push software on the Internet. This article takes [MQTT.fx](https://mqttfx.jensd.de/index.php) as an example.
