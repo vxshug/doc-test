@@ -3,6 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+Heltec Product Documention
+--------------------------
+
 This is the documentation for `Heltec Automation <https://heltec.org>`_ products.
 
 Nodes
