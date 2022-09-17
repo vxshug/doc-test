@@ -77,10 +77,5 @@ General Docs
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
+   general/index
 
