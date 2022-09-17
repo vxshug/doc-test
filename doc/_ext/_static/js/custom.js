@@ -25,8 +25,8 @@ var prod_obj = {
 
 function tt() {
     let e = document.getElementById("product-select");
-    if (e === '') return
     let t = $("#type-select").val();
+    if (t === '') return
     e.options.length = 1
     e.options[0].selected = true
     for (let r = 0; r < prod_obj[t].length; r++) {
