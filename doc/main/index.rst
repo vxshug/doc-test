@@ -78,7 +78,8 @@ General Docs
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: LoRa Gateway
 
-   general/index
+   gateway
+   /general/index
 
