@@ -81,5 +81,16 @@ General Docs
    :caption: LoRa Gateway
 
    gateway
+
+.. toctree::
+   :maxdepth: 2
+   :caption: LoRa Nodes
+
+   nodes
+
+.. toctree::
+   :maxdepth: 2
+   :caption: General Docs
+
    /general/index
 
