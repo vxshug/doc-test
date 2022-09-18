@@ -41,11 +41,17 @@ function tt() {
     if (n === 'none') return
     window.location.href = function(e) {
         let t = $("#type-select").val();
-        let href = window.location.href.split('/')
-        let ll = document.documentElement.lang.replace('-', '_')
-        let l = href.indexOf(ll) + 1
-        href.splice(l, href.length)
-        return href.join('/') + '/' + t + '/' + e + '/index.html'
+        let lang = /\/(en|zh_CN)\//
+        if (lang.test(window.location.href))
+        {
+            let href = window.location.href.split('/')
+            let ll = document.documentElement.lang.replace('-', '_')
+            let l = href.indexOf(ll) + 1
+            href.splice(l, href.length)
+            return href.join('/') + '/' + t + '/' + e + '/index.html'
+        }
+        return window.location.origin + '/' + 'en' + '/' + t + '/' + e + '/index.html'
+
     }(n)
 }
 
