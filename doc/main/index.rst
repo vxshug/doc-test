@@ -86,6 +86,7 @@ General Docs
    :maxdepth: 2
    :caption: LoRa Nodes
 
+   CubeCellABC <https://doc-test-vx.readthedocs.io/en/node/cubecell/>
    nodes
 
 .. toctree::
